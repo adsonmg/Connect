@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_done.png",
+        "source": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\mipmap-mdpi\\ic_done.png"
+    },
+    {
+        "merged": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_user.png",
+        "source": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\mipmap-mdpi\\ic_user.png"
+    },
+    {
+        "merged": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    }
+]

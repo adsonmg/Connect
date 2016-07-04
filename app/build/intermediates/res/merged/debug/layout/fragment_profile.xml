@@ -1,0 +1,133 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:orientation="vertical"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Nome"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            style="@style/redesociais"
+            android:text="MEU PERFIL"
+            android:textColor="@color/accentText"
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_user"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Nome"
+            android:layout_gravity="center"
+            android:id="@+id/tvNome"
+            android:layout_weight="1"
+            style="@style/redesociais"
+            android:textSize="36sp"
+            android:layout_marginBottom="16dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fale sobre você.."
+            android:layout_gravity="center"
+            android:id="@+id/tvBio"
+            android:layout_weight="1"
+            android:lines="6"
+            style="@style/redesociais"
+            android:gravity="top"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="email"
+            android:layout_gravity="center"
+            android:id="@+id/tvEmail"
+            android:layout_weight="1"
+            style="@style/redesociais"
+            android:inputType="textEmailAddress"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Telefone"
+            android:layout_gravity="center"
+            android:id="@+id/tvTelefone"
+            android:layout_weight="1"
+            style="@style/redesociais"
+            android:inputType="phone"
+            android:autoLink="phone"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Facebook"
+            android:layout_gravity="center"
+            android:id="@+id/tvFacebook"
+            android:layout_weight="1"
+            style="@style/redesociais"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Instagram"
+            android:layout_gravity="center"
+            android:id="@+id/tvInstagram"
+            android:layout_weight="1"
+            style="@style/redesociais"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Snapchat"
+            android:layout_gravity="center"
+            android:id="@+id/tvSnapchat"
+            android:layout_weight="1"
+            style="@style/redesociais"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Twitter"
+            android:layout_gravity="center"
+            android:id="@+id/tvTwitter"
+            android:layout_weight="1"
+            style="@style/redesociais"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="WhatsApp"
+            android:layout_gravity="center"
+            android:id="@+id/tvWhatsApp"
+            android:layout_weight="1"
+            style="@style/redesociais"
+            android:inputType="phone"
+            />
+
+        
+    </LinearLayout>
+</ScrollView>

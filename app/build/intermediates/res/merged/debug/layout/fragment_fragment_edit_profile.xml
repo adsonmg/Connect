@@ -1,0 +1,137 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    >
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_user"
+            android:layout_gravity="center"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Nome (campo obrigatório)"
+            android:layout_gravity="center"
+            android:id="@+id/etNome"
+            android:layout_weight="1"
+            style="@style/input"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fale sobre você.."
+            android:layout_gravity="center"
+            android:id="@+id/etBio"
+            android:layout_weight="1"
+            android:lines="6"
+            style="@style/input"
+            android:gravity="top"
+            android:visibility="gone"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Email (campo obrigatório)"
+            android:layout_gravity="center"
+            android:id="@+id/etEmail"
+            android:layout_weight="1"
+            style="@style/input"
+            android:inputType="textEmailAddress"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Telefone (Campo obrigatório)"
+            android:layout_gravity="center"
+            android:id="@+id/etTelefone"
+            android:layout_weight="1"
+            style="@style/input"
+            android:inputType="phone"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="facebook.com/username"
+            android:layout_gravity="center"
+            android:id="@+id/etFacebook"
+            android:layout_weight="1"
+            style="@style/input"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="instagram.com/username"
+            android:layout_gravity="center"
+            android:id="@+id/etInstagram"
+            android:layout_weight="1"
+            style="@style/input"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Seu Snapchat"
+            android:layout_gravity="center"
+            android:id="@+id/etSnapchat"
+            android:layout_weight="1"
+            style="@style/input"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="twitter.com/username"
+            android:layout_gravity="center"
+            android:id="@+id/etTwitter"
+            android:layout_weight="1"
+            style="@style/input"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Seu WhatsApp"
+            android:layout_gravity="center"
+            android:id="@+id/etWhatsApp"
+            android:layout_weight="1"
+            style="@style/input"
+            android:inputType="phone"
+            />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+<android.support.design.widget.FloatingActionButton
+android:id="@+id/btnSalvarPerfil"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="bottom|end"
+android:layout_margin="@dimen/fab_margin"
+android:src="@mipmap/ic_done" />
+    </android.support.design.widget.CoordinatorLayout>
