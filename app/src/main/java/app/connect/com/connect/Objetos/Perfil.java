@@ -1,11 +1,12 @@
 package app.connect.com.connect.Objetos;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * Created by adson on 7/2/2016.
  */
-public class Perfil {
+public class Perfil implements Serializable{
 
     private int id;
     private String nome;

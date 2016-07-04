@@ -4667,14 +4667,7 @@
                     "endOffset": 21471
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\values\\colors.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 243,
-                        "endColumn": 49,
-                        "endOffset": 288
-                    }
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -13528,9 +13521,9 @@
                     "startLine": 2652,
                     "startColumn": 4,
                     "startOffset": 196493,
-                    "endLine": 2662,
+                    "endLine": 2656,
                     "endColumn": 12,
-                    "endOffset": 197081
+                    "endOffset": 196710
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\values\\styles.xml"
@@ -13538,12 +13531,12 @@
             },
             {
                 "to": {
-                    "startLine": 2663,
+                    "startLine": 2657,
                     "startColumn": 4,
-                    "startOffset": 197086,
-                    "endLine": 2670,
+                    "startOffset": 196715,
+                    "endLine": 2667,
                     "endColumn": 12,
-                    "endOffset": 197449
+                    "endOffset": 197303
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\values\\styles.xml"
@@ -13551,15 +13544,49 @@
             },
             {
                 "to": {
-                    "startLine": 2671,
+                    "startLine": 2668,
                     "startColumn": 4,
-                    "startOffset": 197454,
-                    "endLine": 2680,
+                    "startOffset": 197308,
+                    "endLine": 2675,
                     "endColumn": 12,
-                    "endOffset": 197987
+                    "endOffset": 197671
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2676,
+                    "startColumn": 4,
+                    "startOffset": 197676,
+                    "endLine": 2682,
+                    "endColumn": 12,
+                    "endOffset": 198003
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2683,
+                    "startColumn": 4,
+                    "startOffset": 198008,
+                    "endLine": 2690,
+                    "endColumn": 12,
+                    "endOffset": 198392
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 2044,
+                        "endLine": 55,
+                        "endColumn": 12,
+                        "endOffset": 2428
+                    }
                 }
             }
         ]

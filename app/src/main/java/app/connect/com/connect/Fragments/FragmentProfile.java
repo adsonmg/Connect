@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.GridLayout;
 import android.widget.TextView;
 
 import java.util.List;
@@ -57,6 +58,13 @@ public class FragmentProfile extends Fragment {
         tvTwiiter = (TextView) rootView.findViewById(R.id.tvTwitter);
         tvWhatsApp = (TextView) rootView.findViewById(R.id.tvWhatsApp);
 
+
+        GridLayout glFacebook = (GridLayout) rootView.findViewById(R.id.glFacebook);
+        GridLayout glInstagram = (GridLayout) rootView.findViewById(R.id.glInstagram);
+        GridLayout glSnapchat = (GridLayout) rootView.findViewById(R.id.glSnapchat);
+        GridLayout glTwiiter =  (GridLayout) rootView.findViewById(R.id.glTwitter);
+        GridLayout glWhatsApp = (GridLayout) rootView.findViewById(R.id.glWhatsApp);
+
         //Verifica se já existe um perfil do usuario cadastrado
         final List<Perfil> perfilUsuario = perfilDAO.getPerfis(1);
 
@@ -72,27 +80,27 @@ public class FragmentProfile extends Fragment {
             if(!perfilUsuario.get(0).getFacebook().equals("")) {
                 tvFacebook.setText(perfilUsuario.get(0).getFacebook());
             }else{
-                tvFacebook.setVisibility(View.GONE);
+                glFacebook.setVisibility(View.GONE);
             }
             if(!perfilUsuario.get(0).getInstagram().equals("")) {
                 tvInstagram.setText(perfilUsuario.get(0).getInstagram());
             }else{
-                tvInstagram.setVisibility(View.GONE);
+                glInstagram.setVisibility(View.GONE);
             }
             if(!perfilUsuario.get(0).getSnapchat().equals("")) {
                 tvSnapchat.setText(perfilUsuario.get(0).getSnapchat());
             }else{
-                tvSnapchat.setVisibility(View.GONE);
+                glSnapchat.setVisibility(View.GONE);
             }
             if(!perfilUsuario.get(0).getTwitter().equals("")) {
                 tvTwiiter.setText(perfilUsuario.get(0).getTwitter());
             }else{
-                tvTwiiter.setVisibility(View.GONE);
+                glTwiiter.setVisibility(View.GONE);
             }
             if(!perfilUsuario.get(0).getWhatsApp().equals("")) {
                 tvWhatsApp.setText(perfilUsuario.get(0).getWhatsApp());
             }else{
-                tvWhatsApp.setVisibility(View.GONE);
+                glWhatsApp.setVisibility(View.GONE);
             }
 
         }

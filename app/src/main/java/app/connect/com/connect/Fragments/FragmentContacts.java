@@ -52,7 +52,7 @@ public class FragmentContacts extends Fragment {
         PerfilDAO perfilDAO = new PerfilDAO(getContext());
 
         //Pega os perfis dos contatos armazenados no banco de dados
-        List<Perfil> perfilList = perfilDAO.getPerfis(0);
+        final List<Perfil> perfilList = perfilDAO.getPerfis(0);
 
 
         mRecyclerView = (RecyclerView) rootView.findViewById(R.id.rv_contacts);
@@ -72,6 +72,9 @@ public class FragmentContacts extends Fragment {
             @Override
             public void onClickListener(View view, int position) {
                 Intent intent = new Intent(getContext(), ActivityContactProfile.class);
+                Bundle b = new Bundle();
+                b.putSerializable("profile", perfilList.get(position)); //parameter
+                intent.putExtras(b); //Put your id to your next Intent
                 startActivity(intent);
             }
 

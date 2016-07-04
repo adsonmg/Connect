@@ -3,135 +3,227 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    >
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    >
-    <LinearLayout
+    android:fitsSystemWindows="true">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#FFF"
-        android:orientation="vertical">
+        android:layout_height="wrap_content">
 
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@mipmap/ic_user"
-            android:layout_gravity="center"/>
-
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:hint="Nome (campo obrigatório)"
-            android:layout_gravity="center"
-            android:id="@+id/etNome"
-            android:layout_weight="1"
-            style="@style/input"
-            android:textSize="20sp"
-            />
-
-        <EditText
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Fale sobre você.."
-            android:layout_gravity="center"
-            android:id="@+id/etBio"
-            android:layout_weight="1"
-            android:lines="6"
-            style="@style/input"
-            android:gravity="top"
-            android:visibility="gone"
-            />
+            android:background="#FFF"
+            android:orientation="vertical">
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:hint="Email (campo obrigatório)"
-            android:layout_gravity="center"
-            android:id="@+id/etEmail"
-            android:layout_weight="1"
-            style="@style/input"
-            android:inputType="textEmailAddress"
-            />
+            <TextView
+                style="@style/subtitulo"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="Informações básicas" />
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:hint="Telefone (Campo obrigatório)"
-            android:layout_gravity="center"
-            android:id="@+id/etTelefone"
-            android:layout_weight="1"
-            style="@style/input"
-            android:inputType="phone"
-            />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_user" />
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:hint="facebook.com/username"
-            android:layout_gravity="center"
-            android:id="@+id/etFacebook"
-            android:layout_weight="1"
-            style="@style/input"
-            />
+            <EditText
+                android:id="@+id/etNome"
+                style="@style/input"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:hint="Nome (campo obrigatório)"
+                android:textSize="20sp" />
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:hint="instagram.com/username"
-            android:layout_gravity="center"
-            android:id="@+id/etInstagram"
-            android:layout_weight="1"
-            style="@style/input"
-            />
+            <EditText
+                android:id="@+id/etBio"
+                style="@style/input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:hint="Fale sobre você.."
+                android:lines="6"
+                android:visibility="gone" />
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:hint="Seu Snapchat"
-            android:layout_gravity="center"
-            android:id="@+id/etSnapchat"
-            android:layout_weight="1"
-            style="@style/input"
-            />
+            <EditText
+                android:id="@+id/etEmail"
+                style="@style/input"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:hint="Email (campo obrigatório)"
+                android:inputType="textEmailAddress" />
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:hint="twitter.com/username"
-            android:layout_gravity="center"
-            android:id="@+id/etTwitter"
-            android:layout_weight="1"
-            style="@style/input"
-            />
+            <EditText
+                android:id="@+id/etTelefone"
+                style="@style/input"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:hint="Telefone (Campo obrigatório)"
+                android:inputType="phone" />
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:hint="Seu WhatsApp"
-            android:layout_gravity="center"
-            android:id="@+id/etWhatsApp"
-            android:layout_weight="1"
-            style="@style/input"
-            android:inputType="phone"
-            />
+            <View
+                style="@style/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="24dp" />
+
+            <TextView
+                style="@style/subtitulo"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="Redes Sociais" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_column="0"
+                    android:layout_gravity="fill_horizontal|center_vertical"
+                    android:padding="8dp"
+                    android:src="@mipmap/ic_user" />
+
+                <EditText
+                    android:id="@+id/etFacebook"
+                    style="@style/input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_column="1"
+                    android:layout_gravity="fill_horizontal|center_vertical"
+                    android:hint="facebook.com/username"
+                    android:textAlignment="center" />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                >
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_column="0"
+                    android:layout_gravity="fill_horizontal|center_vertical"
+                    android:padding="8dp"
+                    android:src="@mipmap/ic_user" />
+
+                <EditText
+                    android:id="@+id/etInstagram"
+                    style="@style/input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_column="1"
+                    android:layout_gravity="fill_horizontal|center_vertical"
+                    android:hint="instagram.com/username"
+                    android:textAlignment="center" />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                >
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_column="0"
+                    android:layout_gravity="fill_horizontal|center_vertical"
+                    android:padding="8dp"
+                    android:src="@mipmap/ic_user" />
+
+                <EditText
+                    android:id="@+id/etSnapchat"
+                    style="@style/input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_column="1"
+                    android:layout_gravity="fill_horizontal|center_vertical"
+                    android:hint="Seu Snapchat"
+                    android:textAlignment="center" />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                >
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_column="0"
+                    android:layout_gravity="fill_horizontal|center_vertical"
+                    android:padding="8dp"
+                    android:src="@mipmap/ic_user" />
+
+                <EditText
+                    android:id="@+id/etTwitter"
+                    style="@style/input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_column="1"
+                    android:layout_gravity="fill_horizontal|center_vertical"
+                    android:hint="twitter.com/username"
+                    android:textAlignment="center" />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                >
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_column="0"
+                    android:layout_gravity="fill_horizontal|center_vertical"
+                    android:padding="8dp"
+                    android:src="@mipmap/ic_user" />
+
+                <EditText
+                    android:id="@+id/etWhatsApp"
+                    style="@style/input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_column="1"
+                    android:layout_gravity="fill_horizontal|center_vertical"
+                    android:hint="Seu WhatsApp"
+                    android:textAlignment="center" />
+            </GridLayout>
 
 
+        </LinearLayout>
 
-    </LinearLayout>
 
+    </ScrollView>
 
-</ScrollView>
-<android.support.design.widget.FloatingActionButton
-android:id="@+id/btnSalvarPerfil"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:layout_gravity="bottom|end"
-android:layout_margin="@dimen/fab_margin"
-android:src="@mipmap/ic_done" />
-    </android.support.design.widget.CoordinatorLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnSalvarPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@mipmap/ic_done" />
+</android.support.design.widget.CoordinatorLayout>

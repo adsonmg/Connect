@@ -1,7 +1,5 @@
-CHANGED,C:\Users\adson\Desktop\Connect\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\connect\com\connect\Fragments\FragmentRequest$3$override.class
+CHANGED,C:\Users\adson\Desktop\Connect\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\connect\com\connect\Fragments\FragmentContacts$1$override.class
 CHANGED,C:\Users\adson\Desktop\Connect\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
-CHANGED,C:\Users\adson\Desktop\Connect\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\connect\com\connect\Fragments\FragmentRequest$2$override.class
-CHANGED,C:\Users\adson\Desktop\Connect\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\connect\com\connect\Fragments\FragmentRequest$1$1$override.class
-CHANGED,C:\Users\adson\Desktop\Connect\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\connect\com\connect\Fragments\FragmentRequest$3$1$override.class
-CHANGED,C:\Users\adson\Desktop\Connect\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\connect\com\connect\Fragments\FragmentRequest$1$override.class
-CHANGED,C:\Users\adson\Desktop\Connect\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\connect\com\connect\Fragments\FragmentRequest$override.class
+CHANGED,C:\Users\adson\Desktop\Connect\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\connect\com\connect\Fragments\FragmentContacts$override.class
+CHANGED,C:\Users\adson\Desktop\Connect\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\connect\com\connect\Objetos\Perfil$override.class
+CHANGED,C:\Users\adson\Desktop\Connect\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\connect\com\connect\ActivityContactProfile$override.class
