@@ -1,7 +1,12 @@
 package app.connect.com.connect;
 
+import android.content.DialogInterface;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.SearchView;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.GridLayout;
 import android.widget.ImageView;
@@ -10,6 +15,7 @@ import android.widget.Toast;
 
 import java.util.List;
 
+import app.connect.com.connect.BancoDeDados.PerfilDAO;
 import app.connect.com.connect.Objetos.Perfil;
 
 public class ActivityContactProfile extends AppCompatActivity {
@@ -24,7 +30,7 @@ public class ActivityContactProfile extends AppCompatActivity {
     TextView tvTwiiter;
     TextView tvWhatsApp;
     ImageView imgProfile;
-
+    Perfil perfil;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +38,7 @@ public class ActivityContactProfile extends AppCompatActivity {
 
         //Get parameter
         Bundle b = getIntent().getExtras();
-        Perfil perfil = null; // or other values
+        perfil = null; // or other values
         if(b != null) {
             perfil = (Perfil) b.getSerializable("profile");
 
@@ -91,5 +97,35 @@ public class ActivityContactProfile extends AppCompatActivity {
             */
         }
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        super.onCreateOptionsMenu(menu);
+
+
+        MenuItem m1 = menu.add(0, 0, 0, "Excluir Contato");
+        m1.setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
+
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        new AlertDialog.Builder(this)
+                .setTitle("Excluir perfil")
+                .setMessage("Você deseja excluir este contato permanentemente?")
+                .setPositiveButton("Sim", new DialogInterface.OnClickListener() {
+
+                    public void onClick(DialogInterface dialog, int whichButton) {
+                        PerfilDAO perfilDAO = new PerfilDAO(ActivityContactProfile.this);
+                        perfilDAO.excluirBD(perfil);
+                        ActivityContactProfile.this.finish();
+                        Toast.makeText(ActivityContactProfile.this, "Perfil Excluido", Toast.LENGTH_SHORT).show();
+                    }})
+                .setNegativeButton("Não", null).show();
+
+        return super.onOptionsItemSelected(item);
     }
 }

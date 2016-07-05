@@ -60,6 +60,24 @@ public class PerfilDAO {
         bancoDeDados.update("perfis", valores, "_id = '" + perfil.getId() + "'", null);
     }
 
+    //Atualiza valores ja salvos no BD
+    public void excluirBD(Perfil perfil){
+        ContentValues valores = new ContentValues();
+        valores.put("nome", perfil.getNome());
+        valores.put("bio", perfil.getEmail());
+        valores.put("email", perfil.getEmail());
+        valores.put("telefone", perfil.getTelefone());
+        valores.put("tipo", 20);
+        valores.put("facebook", perfil.getFacebook());
+        valores.put("instagram", perfil.getInstagram());
+        valores.put("snapchat", perfil.getSnapchat());
+        valores.put("twitter", perfil.getTwitter());
+        valores.put("whatsapp", perfil.getWhatsApp());
+        valores.put("image", perfil.getImage());
+        bancoDeDados.update("perfis", valores, "_id = '" + perfil.getId() + "'", null);
+    }
+
+
     //Retorna valores do BD
     public List<Perfil> getPerfis(int tipo){
         List<Perfil> perfis = new ArrayList<>();

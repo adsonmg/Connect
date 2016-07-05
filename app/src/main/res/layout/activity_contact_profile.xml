@@ -212,6 +212,14 @@
                 android:id="@+id/glWhatsApp"
                 >
 
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_column="0"
+                    android:layout_gravity="fill_horizontal|center_vertical"
+                    android:padding="8dp"
+                    android:src="@mipmap/ic_user" />
+
                 <TextView
                     android:id="@+id/tvWhatsApp"
                     style="@style/redesociais"

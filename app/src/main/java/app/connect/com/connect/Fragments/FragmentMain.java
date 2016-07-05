@@ -8,8 +8,12 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
+import android.support.v7.widget.SearchView;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -36,6 +40,7 @@ public class FragmentMain extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        setHasOptionsMenu(true);
 
         View rootView;
         rootView = inflater.inflate(R.layout.fragment_main, container, false);
@@ -67,4 +72,33 @@ public class FragmentMain extends Fragment {
 
         return rootView;
     }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+        SearchView sv = new SearchView(getContext());
+        sv.setOnQueryTextListener(new SearchFilter());
+        MenuItem m1 = menu.add(0, 0, 0, "Search");
+        m1.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
+        m1.setActionView(sv);
+    }
+
+    private class SearchFilter implements SearchView.OnQueryTextListener{
+
+        @Override
+        public boolean onQueryTextSubmit(String query) {
+            Log.i("Teste query", query);
+            FragmentTransaction ft = getFragmentManager().beginTransaction();
+            ft.replace(R.id.fragment, FragmentSearch.newInstance(query));
+            ft.addToBackStack(null);
+            ft.commit();
+            return false;
+        }
+
+        @Override
+        public boolean onQueryTextChange(String newText) {
+            return false;
+        }
+    }
+
 }
