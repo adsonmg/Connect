@@ -87,7 +87,7 @@ public class PerfilDAO {
             "facebook", "instagram", "snapchat",
             "twitter", "whatsapp", "image"};
 
-        Cursor cursor = bancoDeDados.query("perfis", colunas, null, null, null, null, "_id DESC");
+        Cursor cursor = bancoDeDados.query("perfis", colunas, null, null, null, null, "nome ASC");
 
         if(cursor.getCount() > 0){
             //verifica se tem algo salvo no BD
@@ -120,14 +120,21 @@ public class PerfilDAO {
     public List<Perfil> busca(int tipo, String busca){
         List<Perfil> perfis = new ArrayList<>();
 
-        String[] colunas = new String[]{"_id", "nome", "bio",
-                "email", "telefone", "tipo",
-                "facebook", "instagram", "snapchat",
-                "twitter", "whatsapp", "image"};
+        String[] colunas = new String[]{"_id",
+                "nome",
+                "bio",
+                "email",
+                "telefone",
+                "tipo",
+                "facebook",
+                "instagram",
+                "snapchat",
+                "twitter",
+                "whatsapp",
+                "image"
+        };
 
-        Cursor cursor = bancoDeDados.query("perfis", colunas, null, null, null, null, "_id DESC");
-        Log.i("busca", busca.toLowerCase());
-
+        Cursor cursor = bancoDeDados.query("perfis", colunas, null, null, null, null, "nome ASC");
 
         if(cursor.getCount() > 0){
             //verifica se tem algo salvo no BD

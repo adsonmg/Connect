@@ -1,9 +1,30 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fragments.FragmentContacts"
+    android:orientation="vertical"
     >
+    <TextView
+        android:id="@+id/tvPlaceholdermsg"
+        style="@style/subtitulo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Não há contatos salvos"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:padding="16dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        style="@style/subtitulo"
+        android:text="Meus Contatos"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        tools:targetApi="jelly_bean_mr1" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv_contacts"
@@ -11,4 +32,4 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
-</FrameLayout>
+</LinearLayout>

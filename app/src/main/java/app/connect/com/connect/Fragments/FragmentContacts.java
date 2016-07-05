@@ -4,11 +4,13 @@ package app.connect.com.connect.Fragments;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -35,6 +37,7 @@ public class FragmentContacts extends Fragment {
     private ContactsAdapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
 
+    private List<Perfil> perfilList;
 
     public FragmentContacts() {
         // Required empty public constructor
@@ -52,7 +55,7 @@ public class FragmentContacts extends Fragment {
         PerfilDAO perfilDAO = new PerfilDAO(getContext());
 
         //Pega os perfis dos contatos armazenados no banco de dados
-        final List<Perfil> perfilList = perfilDAO.getPerfis(0);
+        perfilList = perfilDAO.getPerfis(0);
 
         //Verfica se a lista não está vazia
         if(perfilList.size() == 0){
@@ -93,6 +96,17 @@ public class FragmentContacts extends Fragment {
 
 
         return rootView;
+    }
+
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        //Remove perfil excluido da lista de contatos
+        PerfilDAO perfilDAO = new PerfilDAO(getContext());
+        perfilList.clear();
+        perfilList.addAll(perfilDAO.getPerfis(0));
+        mAdapter.notifyDataSetChanged();
     }
 
 }

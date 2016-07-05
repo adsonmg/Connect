@@ -1,25 +1,24 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragments.FragmentContacts"
     >
+
     <TextView
+        android:id="@+id/tvPlaceholdermsg"
+        style="@style/subtitulo"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Funcionalidade ainda não implementada"
-        android:textAlignment="center"
-        style="@style/Base.TextAppearance.AppCompat.Headline"
-        android:gravity="center"
         android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Nenhum resultado para a sua busca"
+        android:textAlignment="center"
         android:visibility="gone"
-        android:id="@+id/tvPlaceholdermsg"/>
-
+        android:padding="16dp"/>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv_contacts"
-        android:scrollbars="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
 
 </FrameLayout>

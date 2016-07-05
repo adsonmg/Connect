@@ -59,8 +59,7 @@ public class FragmentSearch extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_search, container, false);
 
         //String da busca
-        String busca = "";
-        getArguments().getString("busca", busca);
+        String busca = getArguments().getString("busca");
 
         //TODO teste
         //Abre o banco de dados
@@ -68,7 +67,7 @@ public class FragmentSearch extends Fragment {
 
         //Pega os perfis dos contatos armazenados no banco de dados
         //Correspondentes a busca
-        final List<Perfil> perfilList = new ArrayList<>();
+        final List<Perfil> perfilList = perfilDAO.busca(0,busca);
 
         //Verfica se a lista não está vazia
         if(perfilList.size() == 0){

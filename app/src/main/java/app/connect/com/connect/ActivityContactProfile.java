@@ -1,6 +1,7 @@
 package app.connect.com.connect;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -128,4 +129,5 @@ public class ActivityContactProfile extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }

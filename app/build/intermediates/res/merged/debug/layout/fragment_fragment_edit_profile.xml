@@ -1,6 +1,4 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
@@ -96,7 +94,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill_horizontal|center_vertical"
                     android:padding="8dp"
-                    android:src="@mipmap/ic_user" />
+                    android:src="@mipmap/ic_facebook" />
 
                 <EditText
                     android:id="@+id/etFacebook"
@@ -122,7 +120,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill_horizontal|center_vertical"
                     android:padding="8dp"
-                    android:src="@mipmap/ic_user" />
+                    android:src="@mipmap/ic_instagram" />
 
                 <EditText
                     android:id="@+id/etInstagram"
@@ -148,7 +146,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill_horizontal|center_vertical"
                     android:padding="8dp"
-                    android:src="@mipmap/ic_user" />
+                    android:src="@mipmap/ic_snapchat" />
 
                 <EditText
                     android:id="@+id/etSnapchat"
@@ -174,7 +172,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill_horizontal|center_vertical"
                     android:padding="8dp"
-                    android:src="@mipmap/ic_user" />
+                    android:src="@mipmap/ic_twitter" />
 
                 <EditText
                     android:id="@+id/etTwitter"
@@ -200,7 +198,7 @@
                     android:layout_column="0"
                     android:layout_gravity="fill_horizontal|center_vertical"
                     android:padding="8dp"
-                    android:src="@mipmap/ic_user" />
+                    android:src="@mipmap/ic_whatsapp" />
 
                 <EditText
                     android:id="@+id/etWhatsApp"

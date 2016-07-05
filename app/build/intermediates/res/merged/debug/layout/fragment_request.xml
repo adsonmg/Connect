@@ -1,33 +1,39 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Fragments.FragmentRequest"
+android:orientation="vertical"
+    >
+
+<TextView
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_gravity="center"
-        style="@style/redesociais"
-        android:text="Usuários Próximos"
-        android:textColor="@color/accentText"
-        android:textAlignment="center"
-        android:gravity="center_vertical"
-        />
+    android:layout_height="48dp"
+    android:layout_gravity="center"
+    style="@style/subtitulo"
+    android:text="Usuários Próximos"
+    android:textAlignment="center"
+    android:gravity="center_vertical"
+    tools:targetApi="jelly_bean_mr1"
+    />
 
     <TextView
+        android:id="@+id/tvPlaceholdermsg"
+        style="@style/subtitulo"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Não há niguem para a troca de contatos por perto."
-        android:textAlignment="center"
-        style="@style/Base.TextAppearance.AppCompat.Headline"
-        android:gravity="center"
         android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Não há niguém para troca de contatos no momento"
+        android:textAlignment="center"
         android:visibility="gone"
-        android:id="@+id/tvPlaceholdermsg"/>
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/rv_request"
-        android:scrollbars="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:padding="16dp"/>
+
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/rv_request"
+    android:scrollbars="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
 
 </LinearLayout>
+
