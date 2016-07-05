@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.mikhaellopez.circularimageview.CircularImageView;
+
 import java.util.List;
 
 import app.connect.com.connect.Objetos.Perfil;
@@ -39,6 +41,8 @@ public class RequestAdapter extends RecyclerView.Adapter<RequestAdapter.ViewHold
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         holder.mTVContactNome.setText(mContactDataset.get(position).getNome());
+        holder.imgProfile.setImageResource(mContactDataset.get(position).getImage());
+
 
     }
 
@@ -53,9 +57,13 @@ public class RequestAdapter extends RecyclerView.Adapter<RequestAdapter.ViewHold
     public  class ViewHolder extends RecyclerView.ViewHolder {
         // each data item is just a string in this case
         public TextView mTVContactNome;
+        public CircularImageView imgProfile;
+
         public ViewHolder(View v) {
             super(v);
             mTVContactNome = (TextView) v.findViewById(R.id.tv_contact_nome);
+            imgProfile = (CircularImageView ) v.findViewById(R.id.imgProfile);
+
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

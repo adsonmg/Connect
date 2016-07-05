@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\bruna.png",
+        "source": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\mipmap-xxhdpi\\bruna.png"
+    },
+    {
         "merged": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
@@ -12,6 +16,10 @@
         "source": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_whatsapp.png"
     },
     {
+        "merged": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\gabrielle.png",
+        "source": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\mipmap-xxhdpi\\gabrielle.png"
+    },
+    {
         "merged": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\navigation.png",
         "source": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\mipmap-xxhdpi\\navigation.png"
     },
@@ -22,6 +30,10 @@
     {
         "merged": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_twitter.png",
         "source": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\barbara.png",
+        "source": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\mipmap-xxhdpi\\barbara.png"
     },
     {
         "merged": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_instagram.png",

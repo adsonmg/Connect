@@ -8705,15 +8705,7 @@
                     "endOffset": 74315
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 101,
-                        "endLine": 8,
-                        "endColumn": 12,
-                        "endOffset": 401
-                    }
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -10574,22 +10566,30 @@
                     "startLine": 1845,
                     "startColumn": 4,
                     "startOffset": 139943,
-                    "endLine": 1848,
+                    "endLine": 1861,
                     "endColumn": 12,
-                    "endOffset": 140138
+                    "endOffset": 141186
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 2643,
+                        "endLine": 79,
+                        "endColumn": 12,
+                        "endOffset": 3886
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 1849,
+                    "startLine": 1862,
                     "startColumn": 4,
-                    "startOffset": 140143,
-                    "endLine": 1852,
+                    "startOffset": 141191,
+                    "endLine": 1865,
                     "endColumn": 12,
-                    "endOffset": 140344
+                    "endOffset": 141386
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
@@ -10597,12 +10597,12 @@
             },
             {
                 "to": {
-                    "startLine": 1853,
+                    "startLine": 1866,
                     "startColumn": 4,
-                    "startOffset": 140349,
-                    "endLine": 1863,
+                    "startOffset": 141391,
+                    "endLine": 1869,
                     "endColumn": 12,
-                    "endOffset": 140900
+                    "endOffset": 141592
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
@@ -10610,12 +10610,12 @@
             },
             {
                 "to": {
-                    "startLine": 1864,
+                    "startLine": 1870,
                     "startColumn": 4,
-                    "startOffset": 140905,
-                    "endLine": 1874,
+                    "startOffset": 141597,
+                    "endLine": 1880,
                     "endColumn": 12,
-                    "endOffset": 141474
+                    "endOffset": 142148
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
@@ -10623,36 +10623,12 @@
             },
             {
                 "to": {
-                    "startLine": 1875,
+                    "startLine": 1881,
                     "startColumn": 4,
-                    "startOffset": 141479,
-                    "endLine": 1889,
+                    "startOffset": 142153,
+                    "endLine": 1891,
                     "endColumn": 12,
-                    "endOffset": 142155
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1890,
-                    "startColumn": 4,
-                    "startOffset": 142160,
-                    "endColumn": 68,
-                    "endOffset": 142224
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1891,
-                    "startColumn": 4,
-                    "startOffset": 142229,
-                    "endColumn": 80,
-                    "endOffset": 142305
+                    "endOffset": 142722
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
@@ -10662,9 +10638,46 @@
                 "to": {
                     "startLine": 1892,
                     "startColumn": 4,
-                    "startOffset": 142310,
+                    "startOffset": 142727,
+                    "endLine": 1906,
+                    "endColumn": 12,
+                    "endOffset": 143403
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1907,
+                    "startColumn": 4,
+                    "startOffset": 143408,
+                    "endColumn": 68,
+                    "endOffset": 143472
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1908,
+                    "startColumn": 4,
+                    "startOffset": 143477,
+                    "endColumn": 80,
+                    "endOffset": 143553
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1909,
+                    "startColumn": 4,
+                    "startOffset": 143558,
                     "endColumn": 104,
-                    "endOffset": 142410
+                    "endOffset": 143658
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
@@ -10672,12 +10685,12 @@
             },
             {
                 "to": {
-                    "startLine": 1893,
+                    "startLine": 1910,
                     "startColumn": 4,
-                    "startOffset": 142415,
-                    "endLine": 1896,
+                    "startOffset": 143663,
+                    "endLine": 1913,
                     "endColumn": 12,
-                    "endOffset": 142616
+                    "endOffset": 143864
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.3.2\\res\\values\\values.xml"
@@ -10685,12 +10698,12 @@
             },
             {
                 "to": {
-                    "startLine": 1897,
+                    "startLine": 1914,
                     "startColumn": 4,
-                    "startOffset": 142621,
-                    "endLine": 1900,
+                    "startOffset": 143869,
+                    "endLine": 1917,
                     "endColumn": 12,
-                    "endOffset": 142828
+                    "endOffset": 144076
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.3.2\\res\\values\\values.xml"
@@ -10698,12 +10711,12 @@
             },
             {
                 "to": {
-                    "startLine": 1901,
+                    "startLine": 1918,
                     "startColumn": 4,
-                    "startOffset": 142833,
-                    "endLine": 1924,
+                    "startOffset": 144081,
+                    "endLine": 1941,
                     "endColumn": 12,
-                    "endOffset": 144388
+                    "endOffset": 145636
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.3.2\\res\\values\\values.xml"
@@ -10711,12 +10724,12 @@
             },
             {
                 "to": {
-                    "startLine": 1925,
+                    "startLine": 1942,
                     "startColumn": 4,
-                    "startOffset": 144393,
-                    "endLine": 1948,
+                    "startOffset": 145641,
+                    "endLine": 1965,
                     "endColumn": 12,
-                    "endOffset": 145968
+                    "endOffset": 147216
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.3.2\\res\\values\\values.xml"
@@ -10724,12 +10737,12 @@
             },
             {
                 "to": {
-                    "startLine": 1949,
+                    "startLine": 1966,
                     "startColumn": 4,
-                    "startOffset": 145973,
-                    "endLine": 1972,
+                    "startOffset": 147221,
+                    "endLine": 1989,
                     "endColumn": 12,
-                    "endOffset": 147584
+                    "endOffset": 148832
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.3.2\\res\\values\\values.xml"
@@ -10737,12 +10750,12 @@
             },
             {
                 "to": {
-                    "startLine": 1973,
+                    "startLine": 1990,
                     "startColumn": 4,
-                    "startOffset": 147589,
-                    "endLine": 1995,
+                    "startOffset": 148837,
+                    "endLine": 2012,
                     "endColumn": 12,
-                    "endOffset": 149108
+                    "endOffset": 150356
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.3.2\\res\\values\\values.xml"
@@ -10750,12 +10763,12 @@
             },
             {
                 "to": {
-                    "startLine": 1996,
+                    "startLine": 2013,
                     "startColumn": 4,
-                    "startOffset": 149113,
-                    "endLine": 2018,
+                    "startOffset": 150361,
+                    "endLine": 2035,
                     "endColumn": 12,
-                    "endOffset": 150652
+                    "endOffset": 151900
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.3.2\\res\\values\\values.xml"
@@ -10763,12 +10776,12 @@
             },
             {
                 "to": {
-                    "startLine": 2019,
+                    "startLine": 2036,
                     "startColumn": 4,
-                    "startOffset": 150657,
-                    "endLine": 2041,
+                    "startOffset": 151905,
+                    "endLine": 2058,
                     "endColumn": 12,
-                    "endOffset": 152232
+                    "endOffset": 153480
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.3.2\\res\\values\\values.xml"
@@ -10776,12 +10789,12 @@
             },
             {
                 "to": {
-                    "startLine": 2042,
+                    "startLine": 2059,
                     "startColumn": 4,
-                    "startOffset": 152237,
-                    "endLine": 2064,
+                    "startOffset": 153485,
+                    "endLine": 2081,
                     "endColumn": 12,
-                    "endOffset": 153774
+                    "endOffset": 155022
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.3.2\\res\\values\\values.xml"
@@ -10789,12 +10802,12 @@
             },
             {
                 "to": {
-                    "startLine": 2065,
+                    "startLine": 2082,
                     "startColumn": 4,
-                    "startOffset": 153779,
-                    "endLine": 2087,
+                    "startOffset": 155027,
+                    "endLine": 2104,
                     "endColumn": 12,
-                    "endOffset": 155336
+                    "endOffset": 156584
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.3.2\\res\\values\\values.xml"
@@ -10802,12 +10815,12 @@
             },
             {
                 "to": {
-                    "startLine": 2088,
+                    "startLine": 2105,
                     "startColumn": 4,
-                    "startOffset": 155341,
-                    "endLine": 2110,
+                    "startOffset": 156589,
+                    "endLine": 2127,
                     "endColumn": 12,
-                    "endOffset": 156934
+                    "endOffset": 158182
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.3.2\\res\\values\\values.xml"
@@ -10815,12 +10828,12 @@
             },
             {
                 "to": {
-                    "startLine": 2111,
+                    "startLine": 2128,
                     "startColumn": 4,
-                    "startOffset": 156939,
-                    "endLine": 2133,
+                    "startOffset": 158187,
+                    "endLine": 2150,
                     "endColumn": 12,
-                    "endOffset": 158512
+                    "endOffset": 159760
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.3.2\\res\\values\\values.xml"
@@ -10828,12 +10841,12 @@
             },
             {
                 "to": {
-                    "startLine": 2134,
+                    "startLine": 2151,
                     "startColumn": 4,
-                    "startOffset": 158517,
-                    "endLine": 2156,
+                    "startOffset": 159765,
+                    "endLine": 2173,
                     "endColumn": 12,
-                    "endOffset": 160072
+                    "endOffset": 161320
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.3.2\\res\\values\\values.xml"
@@ -10841,12 +10854,12 @@
             },
             {
                 "to": {
-                    "startLine": 2157,
+                    "startLine": 2174,
                     "startColumn": 4,
-                    "startOffset": 160077,
-                    "endLine": 2180,
+                    "startOffset": 161325,
+                    "endLine": 2197,
                     "endColumn": 12,
-                    "endOffset": 161668
+                    "endOffset": 162916
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialdrawer\\5.3.2\\res\\values\\values.xml"
@@ -10854,145 +10867,11 @@
             },
             {
                 "to": {
-                    "startLine": 2181,
+                    "startLine": 2198,
                     "startColumn": 4,
-                    "startOffset": 161673,
+                    "startOffset": 162921,
                     "endColumn": 60,
-                    "endOffset": 161729
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2182,
-                    "startColumn": 4,
-                    "startOffset": 161734,
-                    "endLine": 2185,
-                    "endColumn": 12,
-                    "endOffset": 161905
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2186,
-                    "startColumn": 4,
-                    "startOffset": 161910,
-                    "endColumn": 91,
-                    "endOffset": 161997
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2187,
-                    "startColumn": 4,
-                    "startOffset": 162002,
-                    "endColumn": 94,
-                    "endOffset": 162092
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2188,
-                    "startColumn": 4,
-                    "startOffset": 162097,
-                    "endColumn": 127,
-                    "endOffset": 162220
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2189,
-                    "startColumn": 4,
-                    "startOffset": 162225,
-                    "endColumn": 115,
-                    "endOffset": 162336
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2190,
-                    "startColumn": 4,
-                    "startOffset": 162341,
-                    "endColumn": 151,
-                    "endOffset": 162488
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2191,
-                    "startColumn": 4,
-                    "startOffset": 162493,
-                    "endColumn": 95,
-                    "endOffset": 162584
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2192,
-                    "startColumn": 4,
-                    "startOffset": 162589,
-                    "endColumn": 131,
-                    "endOffset": 162716
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2193,
-                    "startColumn": 4,
-                    "startOffset": 162721,
-                    "endColumn": 71,
-                    "endOffset": 162788
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2194,
-                    "startColumn": 4,
-                    "startOffset": 162793,
-                    "endColumn": 72,
-                    "endOffset": 162861
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2195,
-                    "startColumn": 4,
-                    "startOffset": 162866,
-                    "endLine": 2198,
-                    "endColumn": 12,
-                    "endOffset": 163049
+                    "endOffset": 162977
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
@@ -11002,34 +10881,70 @@
                 "to": {
                     "startLine": 2199,
                     "startColumn": 4,
-                    "startOffset": 163054,
-                    "endColumn": 106,
-                    "endOffset": 163156
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2200,
-                    "startColumn": 4,
-                    "startOffset": 163161,
-                    "endColumn": 96,
-                    "endOffset": 163253
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2201,
-                    "startColumn": 4,
-                    "startOffset": 163258,
-                    "endLine": 2207,
+                    "startOffset": 162982,
+                    "endLine": 2202,
                     "endColumn": 12,
-                    "endOffset": 163597
+                    "endOffset": 163153
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2203,
+                    "startColumn": 4,
+                    "startOffset": 163158,
+                    "endColumn": 91,
+                    "endOffset": 163245
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2204,
+                    "startColumn": 4,
+                    "startOffset": 163250,
+                    "endColumn": 94,
+                    "endOffset": 163340
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2205,
+                    "startColumn": 4,
+                    "startOffset": 163345,
+                    "endColumn": 127,
+                    "endOffset": 163468
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2206,
+                    "startColumn": 4,
+                    "startOffset": 163473,
+                    "endColumn": 115,
+                    "endOffset": 163584
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2207,
+                    "startColumn": 4,
+                    "startOffset": 163589,
+                    "endColumn": 151,
+                    "endOffset": 163736
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
@@ -11039,9 +10954,9 @@
                 "to": {
                     "startLine": 2208,
                     "startColumn": 4,
-                    "startOffset": 163602,
-                    "endColumn": 120,
-                    "endOffset": 163718
+                    "startOffset": 163741,
+                    "endColumn": 95,
+                    "endOffset": 163832
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
@@ -11051,9 +10966,9 @@
                 "to": {
                     "startLine": 2209,
                     "startColumn": 4,
-                    "startOffset": 163723,
-                    "endColumn": 110,
-                    "endOffset": 163829
+                    "startOffset": 163837,
+                    "endColumn": 131,
+                    "endOffset": 163964
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
@@ -11063,9 +10978,9 @@
                 "to": {
                     "startLine": 2210,
                     "startColumn": 4,
-                    "startOffset": 163834,
-                    "endColumn": 86,
-                    "endOffset": 163916
+                    "startOffset": 163969,
+                    "endColumn": 71,
+                    "endOffset": 164036
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
@@ -11075,9 +10990,9 @@
                 "to": {
                     "startLine": 2211,
                     "startColumn": 4,
-                    "startOffset": 163921,
-                    "endColumn": 74,
-                    "endOffset": 163991
+                    "startOffset": 164041,
+                    "endColumn": 72,
+                    "endOffset": 164109
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
@@ -11087,9 +11002,10 @@
                 "to": {
                     "startLine": 2212,
                     "startColumn": 4,
-                    "startOffset": 163996,
-                    "endColumn": 107,
-                    "endOffset": 164099
+                    "startOffset": 164114,
+                    "endLine": 2215,
+                    "endColumn": 12,
+                    "endOffset": 164297
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
@@ -11097,12 +11013,109 @@
             },
             {
                 "to": {
-                    "startLine": 2213,
+                    "startLine": 2216,
                     "startColumn": 4,
-                    "startOffset": 164104,
-                    "endLine": 2250,
+                    "startOffset": 164302,
+                    "endColumn": 106,
+                    "endOffset": 164404
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2217,
+                    "startColumn": 4,
+                    "startOffset": 164409,
+                    "endColumn": 96,
+                    "endOffset": 164501
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2218,
+                    "startColumn": 4,
+                    "startOffset": 164506,
+                    "endLine": 2224,
                     "endColumn": 12,
-                    "endOffset": 166961
+                    "endOffset": 164845
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2225,
+                    "startColumn": 4,
+                    "startOffset": 164850,
+                    "endColumn": 120,
+                    "endOffset": 164966
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2226,
+                    "startColumn": 4,
+                    "startOffset": 164971,
+                    "endColumn": 110,
+                    "endOffset": 165077
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2227,
+                    "startColumn": 4,
+                    "startOffset": 165082,
+                    "endColumn": 86,
+                    "endOffset": 165164
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2228,
+                    "startColumn": 4,
+                    "startOffset": 165169,
+                    "endColumn": 74,
+                    "endOffset": 165239
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2229,
+                    "startColumn": 4,
+                    "startOffset": 165244,
+                    "endColumn": 107,
+                    "endOffset": 165347
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2230,
+                    "startColumn": 4,
+                    "startOffset": 165352,
+                    "endLine": 2267,
+                    "endColumn": 12,
+                    "endOffset": 168209
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11110,12 +11123,12 @@
             },
             {
                 "to": {
-                    "startLine": 2251,
+                    "startLine": 2268,
                     "startColumn": 4,
-                    "startOffset": 166966,
-                    "endLine": 2289,
+                    "startOffset": 168214,
+                    "endLine": 2306,
                     "endColumn": 12,
-                    "endOffset": 169963
+                    "endOffset": 171211
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11123,11 +11136,11 @@
             },
             {
                 "to": {
-                    "startLine": 2290,
+                    "startLine": 2307,
                     "startColumn": 4,
-                    "startOffset": 169968,
+                    "startOffset": 171216,
                     "endColumn": 61,
-                    "endOffset": 170025
+                    "endOffset": 171273
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11135,12 +11148,12 @@
             },
             {
                 "to": {
-                    "startLine": 2291,
+                    "startLine": 2308,
                     "startColumn": 4,
-                    "startOffset": 170030,
-                    "endLine": 2300,
+                    "startOffset": 171278,
+                    "endLine": 2317,
                     "endColumn": 12,
-                    "endOffset": 170655
+                    "endOffset": 171903
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11148,12 +11161,12 @@
             },
             {
                 "to": {
-                    "startLine": 2301,
+                    "startLine": 2318,
                     "startColumn": 4,
-                    "startOffset": 170660,
-                    "endLine": 2309,
+                    "startOffset": 171908,
+                    "endLine": 2326,
                     "endColumn": 12,
-                    "endOffset": 171269
+                    "endOffset": 172517
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11161,11 +11174,11 @@
             },
             {
                 "to": {
-                    "startLine": 2310,
+                    "startLine": 2327,
                     "startColumn": 4,
-                    "startOffset": 171274,
+                    "startOffset": 172522,
                     "endColumn": 85,
-                    "endOffset": 171355
+                    "endOffset": 172603
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11173,12 +11186,12 @@
             },
             {
                 "to": {
-                    "startLine": 2311,
+                    "startLine": 2328,
                     "startColumn": 4,
-                    "startOffset": 171360,
-                    "endLine": 2312,
+                    "startOffset": 172608,
+                    "endLine": 2329,
                     "endColumn": 12,
-                    "endOffset": 171468
+                    "endOffset": 172716
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11186,12 +11199,12 @@
             },
             {
                 "to": {
-                    "startLine": 2313,
+                    "startLine": 2330,
                     "startColumn": 4,
-                    "startOffset": 171473,
-                    "endLine": 2316,
+                    "startOffset": 172721,
+                    "endLine": 2333,
                     "endColumn": 12,
-                    "endOffset": 171697
+                    "endOffset": 172945
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11199,12 +11212,12 @@
             },
             {
                 "to": {
-                    "startLine": 2317,
+                    "startLine": 2334,
                     "startColumn": 4,
-                    "startOffset": 171702,
-                    "endLine": 2319,
+                    "startOffset": 172950,
+                    "endLine": 2336,
                     "endColumn": 12,
-                    "endOffset": 171857
+                    "endOffset": 173105
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11212,12 +11225,12 @@
             },
             {
                 "to": {
-                    "startLine": 2320,
+                    "startLine": 2337,
                     "startColumn": 4,
-                    "startOffset": 171862,
-                    "endLine": 2322,
+                    "startOffset": 173110,
+                    "endLine": 2339,
                     "endColumn": 12,
-                    "endOffset": 172009
+                    "endOffset": 173257
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11225,12 +11238,12 @@
             },
             {
                 "to": {
-                    "startLine": 2323,
+                    "startLine": 2340,
                     "startColumn": 4,
-                    "startOffset": 172014,
-                    "endLine": 2325,
+                    "startOffset": 173262,
+                    "endLine": 2342,
                     "endColumn": 12,
-                    "endOffset": 172180
+                    "endOffset": 173428
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11238,77 +11251,12 @@
             },
             {
                 "to": {
-                    "startLine": 2326,
+                    "startLine": 2343,
                     "startColumn": 4,
-                    "startOffset": 172185,
-                    "endLine": 2328,
-                    "endColumn": 12,
-                    "endOffset": 172347
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2329,
-                    "startColumn": 4,
-                    "startOffset": 172352,
-                    "endLine": 2332,
-                    "endColumn": 12,
-                    "endOffset": 172590
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2333,
-                    "startColumn": 4,
-                    "startOffset": 172595,
-                    "endLine": 2335,
-                    "endColumn": 12,
-                    "endOffset": 172760
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2336,
-                    "startColumn": 4,
-                    "startOffset": 172765,
-                    "endLine": 2338,
-                    "endColumn": 12,
-                    "endOffset": 172933
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2339,
-                    "startColumn": 4,
-                    "startOffset": 172938,
-                    "endLine": 2341,
-                    "endColumn": 12,
-                    "endOffset": 173104
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2342,
-                    "startColumn": 4,
-                    "startOffset": 173109,
+                    "startOffset": 173433,
                     "endLine": 2345,
                     "endColumn": 12,
-                    "endOffset": 173378
+                    "endOffset": 173595
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11318,10 +11266,10 @@
                 "to": {
                     "startLine": 2346,
                     "startColumn": 4,
-                    "startOffset": 173383,
-                    "endLine": 2348,
+                    "startOffset": 173600,
+                    "endLine": 2349,
                     "endColumn": 12,
-                    "endOffset": 173577
+                    "endOffset": 173838
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11329,12 +11277,12 @@
             },
             {
                 "to": {
-                    "startLine": 2349,
+                    "startLine": 2350,
                     "startColumn": 4,
-                    "startOffset": 173582,
+                    "startOffset": 173843,
                     "endLine": 2352,
                     "endColumn": 12,
-                    "endOffset": 173782
+                    "endOffset": 174008
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11344,10 +11292,10 @@
                 "to": {
                     "startLine": 2353,
                     "startColumn": 4,
-                    "startOffset": 173787,
-                    "endLine": 2356,
+                    "startOffset": 174013,
+                    "endLine": 2355,
                     "endColumn": 12,
-                    "endOffset": 174112
+                    "endOffset": 174181
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11355,23 +11303,12 @@
             },
             {
                 "to": {
-                    "startLine": 2357,
+                    "startLine": 2356,
                     "startColumn": 4,
-                    "startOffset": 174117,
-                    "endColumn": 83,
-                    "endOffset": 174196
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2358,
-                    "startColumn": 4,
-                    "startOffset": 174201,
-                    "endColumn": 95,
-                    "endOffset": 174292
+                    "startOffset": 174186,
+                    "endLine": 2358,
+                    "endColumn": 12,
+                    "endOffset": 174352
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11381,45 +11318,10 @@
                 "to": {
                     "startLine": 2359,
                     "startColumn": 4,
-                    "startOffset": 174297,
-                    "endColumn": 95,
-                    "endOffset": 174388
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2360,
-                    "startColumn": 4,
-                    "startOffset": 174393,
-                    "endColumn": 97,
-                    "endOffset": 174486
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2361,
-                    "startColumn": 4,
-                    "startOffset": 174491,
-                    "endColumn": 99,
-                    "endOffset": 174586
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2362,
-                    "startColumn": 4,
-                    "startOffset": 174591,
-                    "endColumn": 101,
-                    "endOffset": 174688
+                    "startOffset": 174357,
+                    "endLine": 2362,
+                    "endColumn": 12,
+                    "endOffset": 174626
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11429,33 +11331,10 @@
                 "to": {
                     "startLine": 2363,
                     "startColumn": 4,
-                    "startOffset": 174693,
-                    "endColumn": 101,
-                    "endOffset": 174790
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2364,
-                    "startColumn": 4,
-                    "startOffset": 174795,
-                    "endColumn": 101,
-                    "endOffset": 174892
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2365,
-                    "startColumn": 4,
-                    "startOffset": 174897,
-                    "endColumn": 101,
-                    "endOffset": 174994
+                    "startOffset": 174631,
+                    "endLine": 2365,
+                    "endColumn": 12,
+                    "endOffset": 174825
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11465,45 +11344,10 @@
                 "to": {
                     "startLine": 2366,
                     "startColumn": 4,
-                    "startOffset": 174999,
-                    "endColumn": 101,
-                    "endOffset": 175096
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2367,
-                    "startColumn": 4,
-                    "startOffset": 175101,
-                    "endColumn": 99,
-                    "endOffset": 175196
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2368,
-                    "startColumn": 4,
-                    "startOffset": 175201,
-                    "endColumn": 95,
-                    "endOffset": 175292
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2369,
-                    "startColumn": 4,
-                    "startOffset": 175297,
-                    "endColumn": 111,
-                    "endOffset": 175404
+                    "startOffset": 174830,
+                    "endLine": 2369,
+                    "endColumn": 12,
+                    "endOffset": 175030
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11513,45 +11357,10 @@
                 "to": {
                     "startLine": 2370,
                     "startColumn": 4,
-                    "startOffset": 175409,
-                    "endColumn": 128,
-                    "endOffset": 175533
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2371,
-                    "startColumn": 4,
-                    "startOffset": 175538,
-                    "endColumn": 122,
-                    "endOffset": 175656
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2372,
-                    "startColumn": 4,
-                    "startOffset": 175661,
-                    "endColumn": 130,
-                    "endOffset": 175787
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2373,
-                    "startColumn": 4,
-                    "startOffset": 175792,
-                    "endColumn": 130,
-                    "endOffset": 175918
+                    "startOffset": 175035,
+                    "endLine": 2373,
+                    "endColumn": 12,
+                    "endOffset": 175360
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11561,9 +11370,9 @@
                 "to": {
                     "startLine": 2374,
                     "startColumn": 4,
-                    "startOffset": 175923,
-                    "endColumn": 97,
-                    "endOffset": 176016
+                    "startOffset": 175365,
+                    "endColumn": 83,
+                    "endOffset": 175444
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11573,9 +11382,9 @@
                 "to": {
                     "startLine": 2375,
                     "startColumn": 4,
-                    "startOffset": 176021,
-                    "endColumn": 113,
-                    "endOffset": 176130
+                    "startOffset": 175449,
+                    "endColumn": 95,
+                    "endOffset": 175540
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11585,9 +11394,9 @@
                 "to": {
                     "startLine": 2376,
                     "startColumn": 4,
-                    "startOffset": 176135,
-                    "endColumn": 93,
-                    "endOffset": 176224
+                    "startOffset": 175545,
+                    "endColumn": 95,
+                    "endOffset": 175636
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11597,10 +11406,21 @@
                 "to": {
                     "startLine": 2377,
                     "startColumn": 4,
-                    "startOffset": 176229,
-                    "endLine": 2378,
-                    "endColumn": 12,
-                    "endOffset": 176364
+                    "startOffset": 175641,
+                    "endColumn": 97,
+                    "endOffset": 175734
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2378,
+                    "startColumn": 4,
+                    "startOffset": 175739,
+                    "endColumn": 99,
+                    "endOffset": 175834
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11610,10 +11430,21 @@
                 "to": {
                     "startLine": 2379,
                     "startColumn": 4,
-                    "startOffset": 176369,
-                    "endLine": 2380,
-                    "endColumn": 12,
-                    "endOffset": 176498
+                    "startOffset": 175839,
+                    "endColumn": 101,
+                    "endOffset": 175936
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2380,
+                    "startColumn": 4,
+                    "startOffset": 175941,
+                    "endColumn": 101,
+                    "endOffset": 176038
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11623,9 +11454,9 @@
                 "to": {
                     "startLine": 2381,
                     "startColumn": 4,
-                    "startOffset": 176503,
-                    "endColumn": 95,
-                    "endOffset": 176594
+                    "startOffset": 176043,
+                    "endColumn": 101,
+                    "endOffset": 176140
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11635,9 +11466,9 @@
                 "to": {
                     "startLine": 2382,
                     "startColumn": 4,
-                    "startOffset": 176599,
-                    "endColumn": 111,
-                    "endOffset": 176706
+                    "startOffset": 176145,
+                    "endColumn": 101,
+                    "endOffset": 176242
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11647,9 +11478,9 @@
                 "to": {
                     "startLine": 2383,
                     "startColumn": 4,
-                    "startOffset": 176711,
-                    "endColumn": 99,
-                    "endOffset": 176806
+                    "startOffset": 176247,
+                    "endColumn": 101,
+                    "endOffset": 176344
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11659,9 +11490,9 @@
                 "to": {
                     "startLine": 2384,
                     "startColumn": 4,
-                    "startOffset": 176811,
-                    "endColumn": 115,
-                    "endOffset": 176922
+                    "startOffset": 176349,
+                    "endColumn": 99,
+                    "endOffset": 176444
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11671,9 +11502,9 @@
                 "to": {
                     "startLine": 2385,
                     "startColumn": 4,
-                    "startOffset": 176927,
+                    "startOffset": 176449,
                     "endColumn": 95,
-                    "endOffset": 177018
+                    "endOffset": 176540
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11683,9 +11514,9 @@
                 "to": {
                     "startLine": 2386,
                     "startColumn": 4,
-                    "startOffset": 177023,
+                    "startOffset": 176545,
                     "endColumn": 111,
-                    "endOffset": 177130
+                    "endOffset": 176652
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11695,10 +11526,21 @@
                 "to": {
                     "startLine": 2387,
                     "startColumn": 4,
-                    "startOffset": 177135,
-                    "endLine": 2388,
-                    "endColumn": 12,
-                    "endOffset": 177270
+                    "startOffset": 176657,
+                    "endColumn": 128,
+                    "endOffset": 176781
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2388,
+                    "startColumn": 4,
+                    "startOffset": 176786,
+                    "endColumn": 122,
+                    "endOffset": 176904
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11708,9 +11550,9 @@
                 "to": {
                     "startLine": 2389,
                     "startColumn": 4,
-                    "startOffset": 177275,
-                    "endColumn": 135,
-                    "endOffset": 177406
+                    "startOffset": 176909,
+                    "endColumn": 130,
+                    "endOffset": 177035
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11720,10 +11562,21 @@
                 "to": {
                     "startLine": 2390,
                     "startColumn": 4,
-                    "startOffset": 177411,
-                    "endLine": 2391,
-                    "endColumn": 12,
-                    "endOffset": 177570
+                    "startOffset": 177040,
+                    "endColumn": 130,
+                    "endOffset": 177166
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2391,
+                    "startColumn": 4,
+                    "startOffset": 177171,
+                    "endColumn": 97,
+                    "endOffset": 177264
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11733,9 +11586,9 @@
                 "to": {
                     "startLine": 2392,
                     "startColumn": 4,
-                    "startOffset": 177575,
-                    "endColumn": 129,
-                    "endOffset": 177700
+                    "startOffset": 177269,
+                    "endColumn": 113,
+                    "endOffset": 177378
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11745,10 +11598,9 @@
                 "to": {
                     "startLine": 2393,
                     "startColumn": 4,
-                    "startOffset": 177705,
-                    "endLine": 2394,
-                    "endColumn": 12,
-                    "endOffset": 177858
+                    "startOffset": 177383,
+                    "endColumn": 93,
+                    "endOffset": 177472
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11756,12 +11608,12 @@
             },
             {
                 "to": {
-                    "startLine": 2395,
+                    "startLine": 2394,
                     "startColumn": 4,
-                    "startOffset": 177863,
-                    "endLine": 2396,
+                    "startOffset": 177477,
+                    "endLine": 2395,
                     "endColumn": 12,
-                    "endOffset": 178008
+                    "endOffset": 177612
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11769,11 +11621,12 @@
             },
             {
                 "to": {
-                    "startLine": 2397,
+                    "startLine": 2396,
                     "startColumn": 4,
-                    "startOffset": 178013,
-                    "endColumn": 140,
-                    "endOffset": 178149
+                    "startOffset": 177617,
+                    "endLine": 2397,
+                    "endColumn": 12,
+                    "endOffset": 177746
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11783,10 +11636,21 @@
                 "to": {
                     "startLine": 2398,
                     "startColumn": 4,
-                    "startOffset": 178154,
-                    "endLine": 2399,
-                    "endColumn": 12,
-                    "endOffset": 178293
+                    "startOffset": 177751,
+                    "endColumn": 95,
+                    "endOffset": 177842
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2399,
+                    "startColumn": 4,
+                    "startOffset": 177847,
+                    "endColumn": 111,
+                    "endOffset": 177954
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11796,9 +11660,9 @@
                 "to": {
                     "startLine": 2400,
                     "startColumn": 4,
-                    "startOffset": 178298,
-                    "endColumn": 134,
-                    "endOffset": 178428
+                    "startOffset": 177959,
+                    "endColumn": 99,
+                    "endOffset": 178054
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11808,9 +11672,9 @@
                 "to": {
                     "startLine": 2401,
                     "startColumn": 4,
-                    "startOffset": 178433,
-                    "endColumn": 111,
-                    "endOffset": 178540
+                    "startOffset": 178059,
+                    "endColumn": 115,
+                    "endOffset": 178170
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11820,9 +11684,9 @@
                 "to": {
                     "startLine": 2402,
                     "startColumn": 4,
-                    "startOffset": 178545,
-                    "endColumn": 127,
-                    "endOffset": 178668
+                    "startOffset": 178175,
+                    "endColumn": 95,
+                    "endOffset": 178266
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11832,10 +11696,9 @@
                 "to": {
                     "startLine": 2403,
                     "startColumn": 4,
-                    "startOffset": 178673,
-                    "endLine": 2404,
-                    "endColumn": 12,
-                    "endOffset": 178804
+                    "startOffset": 178271,
+                    "endColumn": 111,
+                    "endOffset": 178378
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11843,11 +11706,12 @@
             },
             {
                 "to": {
-                    "startLine": 2405,
+                    "startLine": 2404,
                     "startColumn": 4,
-                    "startOffset": 178809,
-                    "endColumn": 131,
-                    "endOffset": 178936
+                    "startOffset": 178383,
+                    "endLine": 2405,
+                    "endColumn": 12,
+                    "endOffset": 178518
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11857,9 +11721,9 @@
                 "to": {
                     "startLine": 2406,
                     "startColumn": 4,
-                    "startOffset": 178941,
-                    "endColumn": 129,
-                    "endOffset": 179066
+                    "startOffset": 178523,
+                    "endColumn": 135,
+                    "endOffset": 178654
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11869,21 +11733,10 @@
                 "to": {
                     "startLine": 2407,
                     "startColumn": 4,
-                    "startOffset": 179071,
-                    "endColumn": 129,
-                    "endOffset": 179196
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2408,
-                    "startColumn": 4,
-                    "startOffset": 179201,
-                    "endColumn": 111,
-                    "endOffset": 179308
+                    "startOffset": 178659,
+                    "endLine": 2408,
+                    "endColumn": 12,
+                    "endOffset": 178818
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11893,9 +11746,9 @@
                 "to": {
                     "startLine": 2409,
                     "startColumn": 4,
-                    "startOffset": 179313,
-                    "endColumn": 139,
-                    "endOffset": 179448
+                    "startOffset": 178823,
+                    "endColumn": 129,
+                    "endOffset": 178948
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -11905,87 +11758,170 @@
                 "to": {
                     "startLine": 2410,
                     "startColumn": 4,
-                    "startOffset": 179453,
-                    "endLine": 2412,
+                    "startOffset": 178953,
+                    "endLine": 2411,
                     "endColumn": 12,
-                    "endOffset": 179649
+                    "endOffset": 179106
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 2413,
+                    "startLine": 2412,
                     "startColumn": 4,
-                    "startOffset": 179654,
-                    "endColumn": 91,
-                    "endOffset": 179741
+                    "startOffset": 179111,
+                    "endLine": 2413,
+                    "endColumn": 12,
+                    "endOffset": 179256
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2414,
                     "startColumn": 4,
-                    "startOffset": 179746,
-                    "endLine": 2416,
-                    "endColumn": 12,
-                    "endOffset": 179921
+                    "startOffset": 179261,
+                    "endColumn": 140,
+                    "endOffset": 179397
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2415,
+                    "startColumn": 4,
+                    "startOffset": 179402,
+                    "endLine": 2416,
+                    "endColumn": 12,
+                    "endOffset": 179541
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2417,
                     "startColumn": 4,
-                    "startOffset": 179926,
-                    "endLine": 2419,
-                    "endColumn": 12,
-                    "endOffset": 180090
+                    "startOffset": 179546,
+                    "endColumn": 134,
+                    "endOffset": 179676
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2418,
+                    "startColumn": 4,
+                    "startOffset": 179681,
+                    "endColumn": 111,
+                    "endOffset": 179788
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2419,
+                    "startColumn": 4,
+                    "startOffset": 179793,
+                    "endColumn": 127,
+                    "endOffset": 179916
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2420,
                     "startColumn": 4,
-                    "startOffset": 180095,
-                    "endLine": 2422,
+                    "startOffset": 179921,
+                    "endLine": 2421,
                     "endColumn": 12,
-                    "endOffset": 180265
+                    "endOffset": 180052
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2422,
+                    "startColumn": 4,
+                    "startOffset": 180057,
+                    "endColumn": 131,
+                    "endOffset": 180184
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2423,
                     "startColumn": 4,
-                    "startOffset": 180270,
-                    "endLine": 2426,
-                    "endColumn": 12,
-                    "endOffset": 180518
+                    "startOffset": 180189,
+                    "endColumn": 129,
+                    "endOffset": 180314
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2424,
+                    "startColumn": 4,
+                    "startOffset": 180319,
+                    "endColumn": 129,
+                    "endOffset": 180444
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2425,
+                    "startColumn": 4,
+                    "startOffset": 180449,
+                    "endColumn": 111,
+                    "endOffset": 180556
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2426,
+                    "startColumn": 4,
+                    "startOffset": 180561,
+                    "endColumn": 139,
+                    "endOffset": 180696
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2427,
                     "startColumn": 4,
-                    "startOffset": 180523,
-                    "endLine": 2431,
+                    "startOffset": 180701,
+                    "endLine": 2429,
                     "endColumn": 12,
-                    "endOffset": 180809
+                    "endOffset": 180897
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
@@ -11993,182 +11929,88 @@
             },
             {
                 "to": {
-                    "startLine": 2432,
+                    "startLine": 2430,
                     "startColumn": 4,
-                    "startOffset": 180814,
-                    "endColumn": 67,
-                    "endOffset": 180877
+                    "startOffset": 180902,
+                    "endColumn": 91,
+                    "endOffset": 180989
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 2433,
+                    "startLine": 2431,
                     "startColumn": 4,
-                    "startOffset": 180882,
-                    "endColumn": 72,
-                    "endOffset": 180950
+                    "startOffset": 180994,
+                    "endLine": 2433,
+                    "endColumn": 12,
+                    "endOffset": 181169
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2434,
                     "startColumn": 4,
-                    "startOffset": 180955,
-                    "endColumn": 73,
-                    "endOffset": 181024
+                    "startOffset": 181174,
+                    "endLine": 2436,
+                    "endColumn": 12,
+                    "endOffset": 181338
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2435,
-                    "startColumn": 4,
-                    "startOffset": 181029,
-                    "endColumn": 72,
-                    "endOffset": 181097
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2436,
-                    "startColumn": 4,
-                    "startOffset": 181102,
-                    "endColumn": 73,
-                    "endOffset": 181171
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2437,
                     "startColumn": 4,
-                    "startOffset": 181176,
-                    "endLine": 2438,
+                    "startOffset": 181343,
+                    "endLine": 2439,
                     "endColumn": 12,
-                    "endOffset": 181317
+                    "endOffset": 181513
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 2439,
+                    "startLine": 2440,
                     "startColumn": 4,
-                    "startOffset": 181322,
-                    "endLine": 2440,
+                    "startOffset": 181518,
+                    "endLine": 2443,
                     "endColumn": 12,
-                    "endOffset": 181461
+                    "endOffset": 181766
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2441,
-                    "startColumn": 4,
-                    "startOffset": 181466,
-                    "endLine": 2442,
-                    "endColumn": 12,
-                    "endOffset": 181599
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2443,
-                    "startColumn": 4,
-                    "startOffset": 181604,
-                    "endColumn": 65,
-                    "endOffset": 181665
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2444,
                     "startColumn": 4,
-                    "startOffset": 181670,
-                    "endColumn": 89,
-                    "endOffset": 181755
+                    "startOffset": 181771,
+                    "endLine": 2448,
+                    "endColumn": 12,
+                    "endOffset": 182057
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2445,
-                    "startColumn": 4,
-                    "startOffset": 181760,
-                    "endColumn": 75,
-                    "endOffset": 181831
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2446,
-                    "startColumn": 4,
-                    "startOffset": 181836,
-                    "endColumn": 103,
-                    "endOffset": 181935
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2447,
-                    "startColumn": 4,
-                    "startOffset": 181940,
-                    "endColumn": 89,
-                    "endOffset": 182025
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2448,
-                    "startColumn": 4,
-                    "startOffset": 182030,
-                    "endColumn": 101,
-                    "endOffset": 182127
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2449,
                     "startColumn": 4,
-                    "startOffset": 182132,
-                    "endColumn": 107,
-                    "endOffset": 182235
+                    "startOffset": 182062,
+                    "endColumn": 67,
+                    "endOffset": 182125
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12178,9 +12020,9 @@
                 "to": {
                     "startLine": 2450,
                     "startColumn": 4,
-                    "startOffset": 182240,
-                    "endColumn": 107,
-                    "endOffset": 182343
+                    "startOffset": 182130,
+                    "endColumn": 72,
+                    "endOffset": 182198
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12190,9 +12032,9 @@
                 "to": {
                     "startLine": 2451,
                     "startColumn": 4,
-                    "startOffset": 182348,
-                    "endColumn": 99,
-                    "endOffset": 182443
+                    "startOffset": 182203,
+                    "endColumn": 73,
+                    "endOffset": 182272
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12202,9 +12044,9 @@
                 "to": {
                     "startLine": 2452,
                     "startColumn": 4,
-                    "startOffset": 182448,
-                    "endColumn": 79,
-                    "endOffset": 182523
+                    "startOffset": 182277,
+                    "endColumn": 72,
+                    "endOffset": 182345
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12214,9 +12056,9 @@
                 "to": {
                     "startLine": 2453,
                     "startColumn": 4,
-                    "startOffset": 182528,
-                    "endColumn": 91,
-                    "endOffset": 182615
+                    "startOffset": 182350,
+                    "endColumn": 73,
+                    "endOffset": 182419
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12226,22 +12068,10 @@
                 "to": {
                     "startLine": 2454,
                     "startColumn": 4,
-                    "startOffset": 182620,
-                    "endColumn": 97,
-                    "endOffset": 182713
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2455,
-                    "startColumn": 4,
-                    "startOffset": 182718,
-                    "endLine": 2456,
+                    "startOffset": 182424,
+                    "endLine": 2455,
                     "endColumn": 12,
-                    "endOffset": 182823
+                    "endOffset": 182565
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12249,11 +12079,12 @@
             },
             {
                 "to": {
-                    "startLine": 2457,
+                    "startLine": 2456,
                     "startColumn": 4,
-                    "startOffset": 182828,
-                    "endColumn": 77,
-                    "endOffset": 182901
+                    "startOffset": 182570,
+                    "endLine": 2457,
+                    "endColumn": 12,
+                    "endOffset": 182709
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12263,21 +12094,10 @@
                 "to": {
                     "startLine": 2458,
                     "startColumn": 4,
-                    "startOffset": 182906,
-                    "endColumn": 105,
-                    "endOffset": 183007
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2459,
-                    "startColumn": 4,
-                    "startOffset": 183012,
-                    "endColumn": 91,
-                    "endOffset": 183099
+                    "startOffset": 182714,
+                    "endLine": 2459,
+                    "endColumn": 12,
+                    "endOffset": 182847
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12287,9 +12107,9 @@
                 "to": {
                     "startLine": 2460,
                     "startColumn": 4,
-                    "startOffset": 183104,
-                    "endColumn": 103,
-                    "endOffset": 183203
+                    "startOffset": 182852,
+                    "endColumn": 65,
+                    "endOffset": 182913
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12299,9 +12119,9 @@
                 "to": {
                     "startLine": 2461,
                     "startColumn": 4,
-                    "startOffset": 183208,
-                    "endColumn": 109,
-                    "endOffset": 183313
+                    "startOffset": 182918,
+                    "endColumn": 89,
+                    "endOffset": 183003
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12311,10 +12131,21 @@
                 "to": {
                     "startLine": 2462,
                     "startColumn": 4,
-                    "startOffset": 183318,
-                    "endLine": 2463,
-                    "endColumn": 12,
-                    "endOffset": 183435
+                    "startOffset": 183008,
+                    "endColumn": 75,
+                    "endOffset": 183079
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2463,
+                    "startColumn": 4,
+                    "startOffset": 183084,
+                    "endColumn": 103,
+                    "endOffset": 183183
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12324,10 +12155,45 @@
                 "to": {
                     "startLine": 2464,
                     "startColumn": 4,
-                    "startOffset": 183440,
-                    "endLine": 2467,
-                    "endColumn": 12,
-                    "endOffset": 183598
+                    "startOffset": 183188,
+                    "endColumn": 89,
+                    "endOffset": 183273
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2465,
+                    "startColumn": 4,
+                    "startOffset": 183278,
+                    "endColumn": 101,
+                    "endOffset": 183375
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2466,
+                    "startColumn": 4,
+                    "startOffset": 183380,
+                    "endColumn": 107,
+                    "endOffset": 183483
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2467,
+                    "startColumn": 4,
+                    "startOffset": 183488,
+                    "endColumn": 107,
+                    "endOffset": 183591
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12337,10 +12203,45 @@
                 "to": {
                     "startLine": 2468,
                     "startColumn": 4,
-                    "startOffset": 183603,
-                    "endLine": 2471,
-                    "endColumn": 12,
-                    "endOffset": 183755
+                    "startOffset": 183596,
+                    "endColumn": 99,
+                    "endOffset": 183691
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2469,
+                    "startColumn": 4,
+                    "startOffset": 183696,
+                    "endColumn": 79,
+                    "endOffset": 183771
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2470,
+                    "startColumn": 4,
+                    "startOffset": 183776,
+                    "endColumn": 91,
+                    "endOffset": 183863
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2471,
+                    "startColumn": 4,
+                    "startOffset": 183868,
+                    "endColumn": 97,
+                    "endOffset": 183961
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12350,62 +12251,122 @@
                 "to": {
                     "startLine": 2472,
                     "startColumn": 4,
-                    "startOffset": 183760,
-                    "endLine": 2474,
+                    "startOffset": 183966,
+                    "endLine": 2473,
                     "endColumn": 12,
-                    "endOffset": 183909
+                    "endOffset": 184071
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2474,
+                    "startColumn": 4,
+                    "startOffset": 184076,
+                    "endColumn": 77,
+                    "endOffset": 184149
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2475,
                     "startColumn": 4,
-                    "startOffset": 183914,
-                    "endLine": 2479,
-                    "endColumn": 12,
-                    "endOffset": 184267
+                    "startOffset": 184154,
+                    "endColumn": 105,
+                    "endOffset": 184255
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 2480,
+                    "startLine": 2476,
                     "startColumn": 4,
-                    "startOffset": 184272,
-                    "endLine": 2482,
-                    "endColumn": 12,
-                    "endOffset": 184434
+                    "startOffset": 184260,
+                    "endColumn": 91,
+                    "endOffset": 184347
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 2483,
+                    "startLine": 2477,
                     "startColumn": 4,
-                    "startOffset": 184439,
-                    "endLine": 2487,
-                    "endColumn": 12,
-                    "endOffset": 184804
+                    "startOffset": 184352,
+                    "endColumn": 103,
+                    "endOffset": 184451
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 2488,
+                    "startLine": 2478,
                     "startColumn": 4,
-                    "startOffset": 184809,
+                    "startOffset": 184456,
+                    "endColumn": 109,
+                    "endOffset": 184561
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2479,
+                    "startColumn": 4,
+                    "startOffset": 184566,
+                    "endLine": 2480,
+                    "endColumn": 12,
+                    "endOffset": 184683
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2481,
+                    "startColumn": 4,
+                    "startOffset": 184688,
+                    "endLine": 2484,
+                    "endColumn": 12,
+                    "endOffset": 184846
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2485,
+                    "startColumn": 4,
+                    "startOffset": 184851,
+                    "endLine": 2488,
+                    "endColumn": 12,
+                    "endOffset": 185003
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2489,
+                    "startColumn": 4,
+                    "startOffset": 185008,
                     "endLine": 2491,
                     "endColumn": 12,
-                    "endOffset": 184964
+                    "endOffset": 185157
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
@@ -12415,10 +12376,10 @@
                 "to": {
                     "startLine": 2492,
                     "startColumn": 4,
-                    "startOffset": 184969,
-                    "endLine": 2495,
+                    "startOffset": 185162,
+                    "endLine": 2496,
                     "endColumn": 12,
-                    "endOffset": 185118
+                    "endOffset": 185515
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
@@ -12426,160 +12387,63 @@
             },
             {
                 "to": {
-                    "startLine": 2496,
-                    "startColumn": 4,
-                    "startOffset": 185123,
-                    "endColumn": 79,
-                    "endOffset": 185198
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
                     "startLine": 2497,
                     "startColumn": 4,
-                    "startOffset": 185203,
-                    "endColumn": 99,
-                    "endOffset": 185298
+                    "startOffset": 185520,
+                    "endLine": 2499,
+                    "endColumn": 12,
+                    "endOffset": 185682
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2498,
-                    "startColumn": 4,
-                    "startOffset": 185303,
-                    "endColumn": 89,
-                    "endOffset": 185388
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2499,
-                    "startColumn": 4,
-                    "startOffset": 185393,
-                    "endColumn": 109,
-                    "endOffset": 185498
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2500,
                     "startColumn": 4,
-                    "startOffset": 185503,
-                    "endColumn": 93,
-                    "endOffset": 185592
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2501,
-                    "startColumn": 4,
-                    "startOffset": 185597,
-                    "endColumn": 105,
-                    "endOffset": 185698
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2502,
-                    "startColumn": 4,
-                    "startOffset": 185703,
-                    "endColumn": 91,
-                    "endOffset": 185790
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2503,
-                    "startColumn": 4,
-                    "startOffset": 185795,
+                    "startOffset": 185687,
                     "endLine": 2504,
                     "endColumn": 12,
-                    "endOffset": 185890
+                    "endOffset": 186052
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2505,
                     "startColumn": 4,
-                    "startOffset": 185895,
-                    "endLine": 2506,
-                    "endColumn": 12,
-                    "endOffset": 186002
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2507,
-                    "startColumn": 4,
-                    "startOffset": 186007,
+                    "startOffset": 186057,
                     "endLine": 2508,
                     "endColumn": 12,
-                    "endOffset": 186116
+                    "endOffset": 186212
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2509,
                     "startColumn": 4,
-                    "startOffset": 186121,
-                    "endLine": 2510,
-                    "endColumn": 12,
-                    "endOffset": 186232
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2511,
-                    "startColumn": 4,
-                    "startOffset": 186237,
+                    "startOffset": 186217,
                     "endLine": 2512,
                     "endColumn": 12,
-                    "endOffset": 186348
+                    "endOffset": 186366
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2513,
                     "startColumn": 4,
-                    "startOffset": 186353,
-                    "endColumn": 93,
-                    "endOffset": 186442
+                    "startOffset": 186371,
+                    "endColumn": 79,
+                    "endOffset": 186446
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12589,9 +12453,9 @@
                 "to": {
                     "startLine": 2514,
                     "startColumn": 4,
-                    "startOffset": 186447,
-                    "endColumn": 113,
-                    "endOffset": 186556
+                    "startOffset": 186451,
+                    "endColumn": 99,
+                    "endOffset": 186546
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12601,9 +12465,9 @@
                 "to": {
                     "startLine": 2515,
                     "startColumn": 4,
-                    "startOffset": 186561,
-                    "endColumn": 111,
-                    "endOffset": 186668
+                    "startOffset": 186551,
+                    "endColumn": 89,
+                    "endOffset": 186636
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12613,10 +12477,21 @@
                 "to": {
                     "startLine": 2516,
                     "startColumn": 4,
-                    "startOffset": 186673,
-                    "endLine": 2517,
-                    "endColumn": 12,
-                    "endOffset": 186770
+                    "startOffset": 186641,
+                    "endColumn": 109,
+                    "endOffset": 186746
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2517,
+                    "startColumn": 4,
+                    "startOffset": 186751,
+                    "endColumn": 93,
+                    "endOffset": 186840
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12626,10 +12501,21 @@
                 "to": {
                     "startLine": 2518,
                     "startColumn": 4,
-                    "startOffset": 186775,
-                    "endLine": 2519,
-                    "endColumn": 12,
-                    "endOffset": 186890
+                    "startOffset": 186845,
+                    "endColumn": 105,
+                    "endOffset": 186946
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2519,
+                    "startColumn": 4,
+                    "startOffset": 186951,
+                    "endColumn": 91,
+                    "endOffset": 187038
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12639,10 +12525,10 @@
                 "to": {
                     "startLine": 2520,
                     "startColumn": 4,
-                    "startOffset": 186895,
+                    "startOffset": 187043,
                     "endLine": 2521,
                     "endColumn": 12,
-                    "endOffset": 187012
+                    "endOffset": 187138
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12652,21 +12538,10 @@
                 "to": {
                     "startLine": 2522,
                     "startColumn": 4,
-                    "startOffset": 187017,
-                    "endColumn": 81,
-                    "endOffset": 187094
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2523,
-                    "startColumn": 4,
-                    "startOffset": 187099,
-                    "endColumn": 103,
-                    "endOffset": 187198
+                    "startOffset": 187143,
+                    "endLine": 2523,
+                    "endColumn": 12,
+                    "endOffset": 187250
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12676,21 +12551,10 @@
                 "to": {
                     "startLine": 2524,
                     "startColumn": 4,
-                    "startOffset": 187203,
-                    "endColumn": 119,
-                    "endOffset": 187318
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2525,
-                    "startColumn": 4,
-                    "startOffset": 187323,
-                    "endColumn": 125,
-                    "endOffset": 187444
+                    "startOffset": 187255,
+                    "endLine": 2525,
+                    "endColumn": 12,
+                    "endOffset": 187364
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12700,21 +12564,10 @@
                 "to": {
                     "startLine": 2526,
                     "startColumn": 4,
-                    "startOffset": 187449,
-                    "endColumn": 97,
-                    "endOffset": 187542
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2527,
-                    "startColumn": 4,
-                    "startOffset": 187547,
-                    "endColumn": 93,
-                    "endOffset": 187636
+                    "startOffset": 187369,
+                    "endLine": 2527,
+                    "endColumn": 12,
+                    "endOffset": 187480
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12724,21 +12577,10 @@
                 "to": {
                     "startLine": 2528,
                     "startColumn": 4,
-                    "startOffset": 187641,
-                    "endColumn": 87,
-                    "endOffset": 187724
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2529,
-                    "startColumn": 4,
-                    "startOffset": 187729,
-                    "endColumn": 111,
-                    "endOffset": 187836
+                    "startOffset": 187485,
+                    "endLine": 2529,
+                    "endColumn": 12,
+                    "endOffset": 187596
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12748,9 +12590,9 @@
                 "to": {
                     "startLine": 2530,
                     "startColumn": 4,
-                    "startOffset": 187841,
-                    "endColumn": 115,
-                    "endOffset": 187952
+                    "startOffset": 187601,
+                    "endColumn": 93,
+                    "endOffset": 187690
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12760,9 +12602,9 @@
                 "to": {
                     "startLine": 2531,
                     "startColumn": 4,
-                    "startOffset": 187957,
-                    "endColumn": 121,
-                    "endOffset": 188074
+                    "startOffset": 187695,
+                    "endColumn": 113,
+                    "endOffset": 187804
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12772,9 +12614,9 @@
                 "to": {
                     "startLine": 2532,
                     "startColumn": 4,
-                    "startOffset": 188079,
+                    "startOffset": 187809,
                     "endColumn": 111,
-                    "endOffset": 188186
+                    "endOffset": 187916
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12784,10 +12626,10 @@
                 "to": {
                     "startLine": 2533,
                     "startColumn": 4,
-                    "startOffset": 188191,
-                    "endLine": 2535,
+                    "startOffset": 187921,
+                    "endLine": 2534,
                     "endColumn": 12,
-                    "endOffset": 188361
+                    "endOffset": 188018
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12795,11 +12637,12 @@
             },
             {
                 "to": {
-                    "startLine": 2536,
+                    "startLine": 2535,
                     "startColumn": 4,
-                    "startOffset": 188366,
-                    "endColumn": 115,
-                    "endOffset": 188477
+                    "startOffset": 188023,
+                    "endLine": 2536,
+                    "endColumn": 12,
+                    "endOffset": 188138
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12809,21 +12652,10 @@
                 "to": {
                     "startLine": 2537,
                     "startColumn": 4,
-                    "startOffset": 188482,
-                    "endColumn": 85,
-                    "endOffset": 188563
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2538,
-                    "startColumn": 4,
-                    "startOffset": 188568,
-                    "endColumn": 91,
-                    "endOffset": 188655
+                    "startOffset": 188143,
+                    "endLine": 2538,
+                    "endColumn": 12,
+                    "endOffset": 188260
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12833,10 +12665,21 @@
                 "to": {
                     "startLine": 2539,
                     "startColumn": 4,
-                    "startOffset": 188660,
-                    "endLine": 2540,
-                    "endColumn": 12,
-                    "endOffset": 188767
+                    "startOffset": 188265,
+                    "endColumn": 81,
+                    "endOffset": 188342
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2540,
+                    "startColumn": 4,
+                    "startOffset": 188347,
+                    "endColumn": 103,
+                    "endOffset": 188446
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12846,10 +12689,21 @@
                 "to": {
                     "startLine": 2541,
                     "startColumn": 4,
-                    "startOffset": 188772,
-                    "endLine": 2542,
-                    "endColumn": 12,
-                    "endOffset": 188891
+                    "startOffset": 188451,
+                    "endColumn": 119,
+                    "endOffset": 188566
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2542,
+                    "startColumn": 4,
+                    "startOffset": 188571,
+                    "endColumn": 125,
+                    "endOffset": 188692
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12859,9 +12713,9 @@
                 "to": {
                     "startLine": 2543,
                     "startColumn": 4,
-                    "startOffset": 188896,
-                    "endColumn": 66,
-                    "endOffset": 188958
+                    "startOffset": 188697,
+                    "endColumn": 97,
+                    "endOffset": 188790
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12871,10 +12725,21 @@
                 "to": {
                     "startLine": 2544,
                     "startColumn": 4,
-                    "startOffset": 188963,
-                    "endLine": 2545,
-                    "endColumn": 12,
-                    "endOffset": 189084
+                    "startOffset": 188795,
+                    "endColumn": 93,
+                    "endOffset": 188884
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2545,
+                    "startColumn": 4,
+                    "startOffset": 188889,
+                    "endColumn": 87,
+                    "endOffset": 188972
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12884,9 +12749,9 @@
                 "to": {
                     "startLine": 2546,
                     "startColumn": 4,
-                    "startOffset": 189089,
-                    "endColumn": 67,
-                    "endOffset": 189152
+                    "startOffset": 188977,
+                    "endColumn": 111,
+                    "endOffset": 189084
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12896,10 +12761,21 @@
                 "to": {
                     "startLine": 2547,
                     "startColumn": 4,
-                    "startOffset": 189157,
-                    "endLine": 2548,
-                    "endColumn": 12,
-                    "endOffset": 189280
+                    "startOffset": 189089,
+                    "endColumn": 115,
+                    "endOffset": 189200
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2548,
+                    "startColumn": 4,
+                    "startOffset": 189205,
+                    "endColumn": 121,
+                    "endOffset": 189322
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12909,10 +12785,9 @@
                 "to": {
                     "startLine": 2549,
                     "startColumn": 4,
-                    "startOffset": 189285,
-                    "endLine": 2550,
-                    "endColumn": 12,
-                    "endOffset": 189424
+                    "startOffset": 189327,
+                    "endColumn": 111,
+                    "endOffset": 189434
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12920,12 +12795,12 @@
             },
             {
                 "to": {
-                    "startLine": 2551,
+                    "startLine": 2550,
                     "startColumn": 4,
-                    "startOffset": 189429,
+                    "startOffset": 189439,
                     "endLine": 2552,
                     "endColumn": 12,
-                    "endOffset": 189552
+                    "endOffset": 189609
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12935,9 +12810,9 @@
                 "to": {
                     "startLine": 2553,
                     "startColumn": 4,
-                    "startOffset": 189557,
-                    "endColumn": 68,
-                    "endOffset": 189621
+                    "startOffset": 189614,
+                    "endColumn": 115,
+                    "endOffset": 189725
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12947,9 +12822,9 @@
                 "to": {
                     "startLine": 2554,
                     "startColumn": 4,
-                    "startOffset": 189626,
-                    "endColumn": 94,
-                    "endOffset": 189716
+                    "startOffset": 189730,
+                    "endColumn": 85,
+                    "endOffset": 189811
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12959,9 +12834,9 @@
                 "to": {
                     "startLine": 2555,
                     "startColumn": 4,
-                    "startOffset": 189721,
-                    "endColumn": 114,
-                    "endOffset": 189831
+                    "startOffset": 189816,
+                    "endColumn": 91,
+                    "endOffset": 189903
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12971,21 +12846,10 @@
                 "to": {
                     "startLine": 2556,
                     "startColumn": 4,
-                    "startOffset": 189836,
-                    "endColumn": 112,
-                    "endOffset": 189944
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2557,
-                    "startColumn": 4,
-                    "startOffset": 189949,
-                    "endColumn": 98,
-                    "endOffset": 190043
+                    "startOffset": 189908,
+                    "endLine": 2557,
+                    "endColumn": 12,
+                    "endOffset": 190015
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -12995,21 +12859,10 @@
                 "to": {
                     "startLine": 2558,
                     "startColumn": 4,
-                    "startOffset": 190048,
-                    "endColumn": 108,
-                    "endOffset": 190152
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2559,
-                    "startColumn": 4,
-                    "startOffset": 190157,
-                    "endColumn": 110,
-                    "endOffset": 190263
+                    "startOffset": 190020,
+                    "endLine": 2559,
+                    "endColumn": 12,
+                    "endOffset": 190139
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13019,9 +12872,9 @@
                 "to": {
                     "startLine": 2560,
                     "startColumn": 4,
-                    "startOffset": 190268,
-                    "endColumn": 110,
-                    "endOffset": 190374
+                    "startOffset": 190144,
+                    "endColumn": 66,
+                    "endOffset": 190206
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13031,21 +12884,10 @@
                 "to": {
                     "startLine": 2561,
                     "startColumn": 4,
-                    "startOffset": 190379,
-                    "endColumn": 100,
-                    "endOffset": 190475
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2562,
-                    "startColumn": 4,
-                    "startOffset": 190480,
-                    "endColumn": 104,
-                    "endOffset": 190580
+                    "startOffset": 190211,
+                    "endLine": 2562,
+                    "endColumn": 12,
+                    "endOffset": 190332
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13055,9 +12897,9 @@
                 "to": {
                     "startLine": 2563,
                     "startColumn": 4,
-                    "startOffset": 190585,
-                    "endColumn": 99,
-                    "endOffset": 190680
+                    "startOffset": 190337,
+                    "endColumn": 67,
+                    "endOffset": 190400
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13067,10 +12909,10 @@
                 "to": {
                     "startLine": 2564,
                     "startColumn": 4,
-                    "startOffset": 190685,
+                    "startOffset": 190405,
                     "endLine": 2565,
                     "endColumn": 12,
-                    "endOffset": 190810
+                    "endOffset": 190528
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13080,21 +12922,10 @@
                 "to": {
                     "startLine": 2566,
                     "startColumn": 4,
-                    "startOffset": 190815,
-                    "endColumn": 90,
-                    "endOffset": 190901
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2567,
-                    "startColumn": 4,
-                    "startOffset": 190906,
-                    "endColumn": 122,
-                    "endOffset": 191024
+                    "startOffset": 190533,
+                    "endLine": 2567,
+                    "endColumn": 12,
+                    "endOffset": 190672
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13104,9 +12935,10 @@
                 "to": {
                     "startLine": 2568,
                     "startColumn": 4,
-                    "startOffset": 191029,
-                    "endColumn": 93,
-                    "endOffset": 191118
+                    "startOffset": 190677,
+                    "endLine": 2569,
+                    "endColumn": 12,
+                    "endOffset": 190800
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13114,12 +12946,11 @@
             },
             {
                 "to": {
-                    "startLine": 2569,
+                    "startLine": 2570,
                     "startColumn": 4,
-                    "startOffset": 191123,
-                    "endLine": 2570,
-                    "endColumn": 12,
-                    "endOffset": 191230
+                    "startOffset": 190805,
+                    "endColumn": 68,
+                    "endOffset": 190869
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13129,9 +12960,9 @@
                 "to": {
                     "startLine": 2571,
                     "startColumn": 4,
-                    "startOffset": 191235,
-                    "endColumn": 85,
-                    "endOffset": 191316
+                    "startOffset": 190874,
+                    "endColumn": 94,
+                    "endOffset": 190964
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13141,9 +12972,9 @@
                 "to": {
                     "startLine": 2572,
                     "startColumn": 4,
-                    "startOffset": 191321,
-                    "endColumn": 103,
-                    "endOffset": 191420
+                    "startOffset": 190969,
+                    "endColumn": 114,
+                    "endOffset": 191079
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13153,9 +12984,9 @@
                 "to": {
                     "startLine": 2573,
                     "startColumn": 4,
-                    "startOffset": 191425,
-                    "endColumn": 95,
-                    "endOffset": 191516
+                    "startOffset": 191084,
+                    "endColumn": 112,
+                    "endOffset": 191192
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13165,9 +12996,9 @@
                 "to": {
                     "startLine": 2574,
                     "startColumn": 4,
-                    "startOffset": 191521,
-                    "endColumn": 87,
-                    "endOffset": 191604
+                    "startOffset": 191197,
+                    "endColumn": 98,
+                    "endOffset": 191291
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13177,10 +13008,21 @@
                 "to": {
                     "startLine": 2575,
                     "startColumn": 4,
-                    "startOffset": 191609,
-                    "endLine": 2576,
-                    "endColumn": 12,
-                    "endOffset": 191722
+                    "startOffset": 191296,
+                    "endColumn": 108,
+                    "endOffset": 191400
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2576,
+                    "startColumn": 4,
+                    "startOffset": 191405,
+                    "endColumn": 110,
+                    "endOffset": 191511
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13190,10 +13032,21 @@
                 "to": {
                     "startLine": 2577,
                     "startColumn": 4,
-                    "startOffset": 191727,
-                    "endLine": 2578,
-                    "endColumn": 12,
-                    "endOffset": 191826
+                    "startOffset": 191516,
+                    "endColumn": 110,
+                    "endOffset": 191622
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2578,
+                    "startColumn": 4,
+                    "startOffset": 191627,
+                    "endColumn": 100,
+                    "endOffset": 191723
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13203,10 +13056,21 @@
                 "to": {
                     "startLine": 2579,
                     "startColumn": 4,
-                    "startOffset": 191831,
-                    "endLine": 2580,
-                    "endColumn": 12,
-                    "endOffset": 191930
+                    "startOffset": 191728,
+                    "endColumn": 104,
+                    "endOffset": 191828
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2580,
+                    "startColumn": 4,
+                    "startOffset": 191833,
+                    "endColumn": 99,
+                    "endOffset": 191928
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13216,10 +13080,10 @@
                 "to": {
                     "startLine": 2581,
                     "startColumn": 4,
-                    "startOffset": 191935,
+                    "startOffset": 191933,
                     "endLine": 2582,
                     "endColumn": 12,
-                    "endOffset": 192056
+                    "endOffset": 192058
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13229,9 +13093,9 @@
                 "to": {
                     "startLine": 2583,
                     "startColumn": 4,
-                    "startOffset": 192061,
-                    "endColumn": 87,
-                    "endOffset": 192144
+                    "startOffset": 192063,
+                    "endColumn": 90,
+                    "endOffset": 192149
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13241,9 +13105,9 @@
                 "to": {
                     "startLine": 2584,
                     "startColumn": 4,
-                    "startOffset": 192149,
-                    "endColumn": 107,
-                    "endOffset": 192252
+                    "startOffset": 192154,
+                    "endColumn": 122,
+                    "endOffset": 192272
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13253,9 +13117,9 @@
                 "to": {
                     "startLine": 2585,
                     "startColumn": 4,
-                    "startOffset": 192257,
-                    "endColumn": 99,
-                    "endOffset": 192352
+                    "startOffset": 192277,
+                    "endColumn": 93,
+                    "endOffset": 192366
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13265,21 +13129,10 @@
                 "to": {
                     "startLine": 2586,
                     "startColumn": 4,
-                    "startOffset": 192357,
-                    "endColumn": 89,
-                    "endOffset": 192442
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2587,
-                    "startColumn": 4,
-                    "startOffset": 192447,
-                    "endColumn": 109,
-                    "endOffset": 192552
+                    "startOffset": 192371,
+                    "endLine": 2587,
+                    "endColumn": 12,
+                    "endOffset": 192478
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13289,9 +13142,9 @@
                 "to": {
                     "startLine": 2588,
                     "startColumn": 4,
-                    "startOffset": 192557,
-                    "endColumn": 83,
-                    "endOffset": 192636
+                    "startOffset": 192483,
+                    "endColumn": 85,
+                    "endOffset": 192564
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13301,9 +13154,9 @@
                 "to": {
                     "startLine": 2589,
                     "startColumn": 4,
-                    "startOffset": 192641,
-                    "endColumn": 101,
-                    "endOffset": 192738
+                    "startOffset": 192569,
+                    "endColumn": 103,
+                    "endOffset": 192668
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13313,9 +13166,9 @@
                 "to": {
                     "startLine": 2590,
                     "startColumn": 4,
-                    "startOffset": 192743,
-                    "endColumn": 83,
-                    "endOffset": 192822
+                    "startOffset": 192673,
+                    "endColumn": 95,
+                    "endOffset": 192764
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13325,9 +13178,9 @@
                 "to": {
                     "startLine": 2591,
                     "startColumn": 4,
-                    "startOffset": 192827,
-                    "endColumn": 53,
-                    "endOffset": 192876
+                    "startOffset": 192769,
+                    "endColumn": 87,
+                    "endOffset": 192852
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13337,21 +13190,10 @@
                 "to": {
                     "startLine": 2592,
                     "startColumn": 4,
-                    "startOffset": 192881,
-                    "endColumn": 63,
-                    "endOffset": 192940
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2593,
-                    "startColumn": 4,
-                    "startOffset": 192945,
-                    "endColumn": 105,
-                    "endOffset": 193046
+                    "startOffset": 192857,
+                    "endLine": 2593,
+                    "endColumn": 12,
+                    "endOffset": 192970
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13361,21 +13203,10 @@
                 "to": {
                     "startLine": 2594,
                     "startColumn": 4,
-                    "startOffset": 193051,
-                    "endColumn": 109,
-                    "endOffset": 193156
-                },
-                "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2595,
-                    "startColumn": 4,
-                    "startOffset": 193161,
-                    "endColumn": 83,
-                    "endOffset": 193240
+                    "startOffset": 192975,
+                    "endLine": 2595,
+                    "endColumn": 12,
+                    "endOffset": 193074
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13385,9 +13216,10 @@
                 "to": {
                     "startLine": 2596,
                     "startColumn": 4,
-                    "startOffset": 193245,
-                    "endColumn": 119,
-                    "endOffset": 193360
+                    "startOffset": 193079,
+                    "endLine": 2597,
+                    "endColumn": 12,
+                    "endOffset": 193178
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
@@ -13395,64 +13227,193 @@
             },
             {
                 "to": {
-                    "startLine": 2597,
+                    "startLine": 2598,
                     "startColumn": 4,
-                    "startOffset": 193365,
-                    "endLine": 2598,
+                    "startOffset": 193183,
+                    "endLine": 2599,
                     "endColumn": 12,
-                    "endOffset": 193460
+                    "endOffset": 193304
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 2599,
+                    "startLine": 2600,
                     "startColumn": 4,
-                    "startOffset": 193465,
-                    "endLine": 2605,
-                    "endColumn": 12,
-                    "endOffset": 193915
+                    "startOffset": 193309,
+                    "endColumn": 87,
+                    "endOffset": 193392
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2601,
+                    "startColumn": 4,
+                    "startOffset": 193397,
+                    "endColumn": 107,
+                    "endOffset": 193500
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2602,
+                    "startColumn": 4,
+                    "startOffset": 193505,
+                    "endColumn": 99,
+                    "endOffset": 193600
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2603,
+                    "startColumn": 4,
+                    "startOffset": 193605,
+                    "endColumn": 89,
+                    "endOffset": 193690
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2604,
+                    "startColumn": 4,
+                    "startOffset": 193695,
+                    "endColumn": 109,
+                    "endOffset": 193800
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2605,
+                    "startColumn": 4,
+                    "startOffset": 193805,
+                    "endColumn": 83,
+                    "endOffset": 193884
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2606,
                     "startColumn": 4,
-                    "startOffset": 193920,
-                    "endLine": 2609,
-                    "endColumn": 12,
-                    "endOffset": 194122
+                    "startOffset": 193889,
+                    "endColumn": 101,
+                    "endOffset": 193986
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2607,
+                    "startColumn": 4,
+                    "startOffset": 193991,
+                    "endColumn": 83,
+                    "endOffset": 194070
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2608,
+                    "startColumn": 4,
+                    "startOffset": 194075,
+                    "endColumn": 53,
+                    "endOffset": 194124
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2609,
+                    "startColumn": 4,
+                    "startOffset": 194129,
+                    "endColumn": 63,
+                    "endOffset": 194188
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2610,
                     "startColumn": 4,
-                    "startOffset": 194127,
-                    "endLine": 2612,
-                    "endColumn": 12,
-                    "endOffset": 194281
+                    "startOffset": 194193,
+                    "endColumn": 105,
+                    "endOffset": 194294
                 },
                 "from": {
-                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2611,
+                    "startColumn": 4,
+                    "startOffset": 194299,
+                    "endColumn": 109,
+                    "endOffset": 194404
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2612,
+                    "startColumn": 4,
+                    "startOffset": 194409,
+                    "endColumn": 83,
+                    "endOffset": 194488
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2613,
                     "startColumn": 4,
-                    "startOffset": 194286,
-                    "endLine": 2621,
+                    "startOffset": 194493,
+                    "endColumn": 119,
+                    "endOffset": 194608
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2614,
+                    "startColumn": 4,
+                    "startOffset": 194613,
+                    "endLine": 2615,
                     "endColumn": 12,
-                    "endOffset": 194846
+                    "endOffset": 194708
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
@@ -13460,12 +13421,12 @@
             },
             {
                 "to": {
-                    "startLine": 2622,
+                    "startLine": 2616,
                     "startColumn": 4,
-                    "startOffset": 194851,
-                    "endLine": 2627,
+                    "startOffset": 194713,
+                    "endLine": 2622,
                     "endColumn": 12,
-                    "endOffset": 195207
+                    "endOffset": 195163
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
@@ -13473,12 +13434,12 @@
             },
             {
                 "to": {
-                    "startLine": 2628,
+                    "startLine": 2623,
                     "startColumn": 4,
-                    "startOffset": 195212,
-                    "endLine": 2630,
+                    "startOffset": 195168,
+                    "endLine": 2626,
                     "endColumn": 12,
-                    "endOffset": 195336
+                    "endOffset": 195370
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
@@ -13486,12 +13447,12 @@
             },
             {
                 "to": {
-                    "startLine": 2631,
+                    "startLine": 2627,
                     "startColumn": 4,
-                    "startOffset": 195341,
-                    "endLine": 2640,
+                    "startOffset": 195375,
+                    "endLine": 2629,
                     "endColumn": 12,
-                    "endOffset": 196080
+                    "endOffset": 195529
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
@@ -13499,12 +13460,25 @@
             },
             {
                 "to": {
-                    "startLine": 2641,
+                    "startLine": 2630,
                     "startColumn": 4,
-                    "startOffset": 196085,
+                    "startOffset": 195534,
+                    "endLine": 2638,
+                    "endColumn": 12,
+                    "endOffset": 196094
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2639,
+                    "startColumn": 4,
+                    "startOffset": 196099,
                     "endLine": 2644,
                     "endColumn": 12,
-                    "endOffset": 196260
+                    "endOffset": 196455
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
@@ -13514,10 +13488,10 @@
                 "to": {
                     "startLine": 2645,
                     "startColumn": 4,
-                    "startOffset": 196265,
-                    "endLine": 2650,
+                    "startOffset": 196460,
+                    "endLine": 2647,
                     "endColumn": 12,
-                    "endOffset": 196701
+                    "endOffset": 196584
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
@@ -13525,12 +13499,51 @@
             },
             {
                 "to": {
-                    "startLine": 2651,
+                    "startLine": 2648,
                     "startColumn": 4,
-                    "startOffset": 196706,
-                    "endLine": 2653,
+                    "startOffset": 196589,
+                    "endLine": 2657,
                     "endColumn": 12,
-                    "endOffset": 196843
+                    "endOffset": 197328
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2658,
+                    "startColumn": 4,
+                    "startOffset": 197333,
+                    "endLine": 2661,
+                    "endColumn": 12,
+                    "endOffset": 197508
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2662,
+                    "startColumn": 4,
+                    "startOffset": 197513,
+                    "endLine": 2667,
+                    "endColumn": 12,
+                    "endOffset": 197949
+                },
+                "from": {
+                    "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2668,
+                    "startColumn": 4,
+                    "startOffset": 197954,
+                    "endLine": 2670,
+                    "endColumn": 12,
+                    "endOffset": 198091
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\build\\intermediates\\exploded-aar\\com.mikepenz\\materialize\\0.9.0\\res\\values\\values.xml"
@@ -13538,12 +13551,12 @@
             },
             {
                 "to": {
-                    "startLine": 2654,
+                    "startLine": 2671,
                     "startColumn": 4,
-                    "startOffset": 196848,
-                    "endLine": 2658,
+                    "startOffset": 198096,
+                    "endLine": 2675,
                     "endColumn": 12,
-                    "endOffset": 197065
+                    "endOffset": 198313
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\values\\styles.xml"
@@ -13551,12 +13564,12 @@
             },
             {
                 "to": {
-                    "startLine": 2659,
+                    "startLine": 2676,
                     "startColumn": 4,
-                    "startOffset": 197070,
-                    "endLine": 2669,
+                    "startOffset": 198318,
+                    "endLine": 2686,
                     "endColumn": 12,
-                    "endOffset": 197658
+                    "endOffset": 198906
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\values\\styles.xml"
@@ -13564,12 +13577,12 @@
             },
             {
                 "to": {
-                    "startLine": 2670,
+                    "startLine": 2687,
                     "startColumn": 4,
-                    "startOffset": 197663,
-                    "endLine": 2677,
+                    "startOffset": 198911,
+                    "endLine": 2694,
                     "endColumn": 12,
-                    "endOffset": 198026
+                    "endOffset": 199274
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\values\\styles.xml"
@@ -13577,12 +13590,12 @@
             },
             {
                 "to": {
-                    "startLine": 2678,
+                    "startLine": 2695,
                     "startColumn": 4,
-                    "startOffset": 198031,
-                    "endLine": 2684,
+                    "startOffset": 199279,
+                    "endLine": 2701,
                     "endColumn": 12,
-                    "endOffset": 198358
+                    "endOffset": 199606
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\values\\styles.xml"
@@ -13590,12 +13603,12 @@
             },
             {
                 "to": {
-                    "startLine": 2685,
+                    "startLine": 2702,
                     "startColumn": 4,
-                    "startOffset": 198363,
-                    "endLine": 2692,
+                    "startOffset": 199611,
+                    "endLine": 2709,
                     "endColumn": 12,
-                    "endOffset": 198747
+                    "endOffset": 199995
                 },
                 "from": {
                     "file": "C:\\Users\\adson\\Desktop\\Connect\\app\\src\\main\\res\\values\\styles.xml"

@@ -60,17 +60,20 @@ public class FragmentRequest extends Fragment {
 
         final List<Perfil> snList = new ArrayList<>();
         Perfil teste1 = new Perfil();
-        teste1.setNome("Gabrielle");
+        teste1.setNome("gabrielle");
         teste1.setTipo(0);
         teste1.setEmail("gabrielle@email.com");
+        teste1.setImage(R.mipmap.gabrielle);
         Perfil teste2 = new Perfil();
-        teste2.setNome("Barbara");
+        teste2.setNome("barbara");
         teste2.setTipo(0);
         teste2.setEmail("barbara@email.com");
+        teste2.setImage(R.mipmap.barbara);
         Perfil teste3 = new Perfil();
-        teste3.setNome("Bruna");
+        teste3.setNome("bruna");
         teste3.setTipo(0);
         teste3.setEmail("bruna@email.com");
+        teste3.setImage(R.mipmap.bruna);
 
         snList.add(teste1);
         snList.add(teste2);
