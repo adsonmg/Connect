@@ -4,6 +4,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,6 +38,7 @@ public class PerfilDAO {
         valores.put("snapchat", perfil.getSnapchat());
         valores.put("twitter", perfil.getTwitter());
         valores.put("whatsapp", perfil.getWhatsApp());
+        valores.put("image", perfil.getImage());
         bancoDeDados.insert("perfis", null, valores);
     }
 
@@ -54,6 +56,7 @@ public class PerfilDAO {
         valores.put("snapchat", perfil.getSnapchat());
         valores.put("twitter", perfil.getTwitter());
         valores.put("whatsapp", perfil.getWhatsApp());
+        valores.put("image", perfil.getImage());
         bancoDeDados.update("perfis", valores, "_id = '" + perfil.getId() + "'", null);
     }
 
@@ -64,7 +67,7 @@ public class PerfilDAO {
         String[] colunas = new String[]{"_id", "nome", "bio",
             "email", "telefone", "tipo",
             "facebook", "instagram", "snapchat",
-            "twitter", "whatsapp"};
+            "twitter", "whatsapp", "image"};
 
         Cursor cursor = bancoDeDados.query("perfis", colunas, null, null, null, null, "_id DESC");
 
@@ -87,7 +90,50 @@ public class PerfilDAO {
                     perfil.setSnapchat(cursor.getString(8));
                     perfil.setTwitter(cursor.getString(9));
                     perfil.setWhatsApp(cursor.getString(10));
+                    perfil.setImage(cursor.getInt(11));
                     perfis.add(perfil);
+                }
+            }while (cursor.moveToNext());
+        }
+
+        return perfis;
+    }
+
+    public List<Perfil> busca(int tipo, String busca){
+        List<Perfil> perfis = new ArrayList<>();
+
+        String[] colunas = new String[]{"_id", "nome", "bio",
+                "email", "telefone", "tipo",
+                "facebook", "instagram", "snapchat",
+                "twitter", "whatsapp", "image"};
+
+        Cursor cursor = bancoDeDados.query("perfis", colunas, null, null, null, null, "_id DESC");
+        Log.i("busca", busca.toLowerCase());
+
+
+        if(cursor.getCount() > 0){
+            //verifica se tem algo salvo no BD
+            //movimenta cursor para o inicio do BD
+            cursor.moveToFirst();
+            do{
+                String nome = cursor.getString(1);
+                if(cursor.getInt(5) == tipo) {
+                    Perfil perfil = new Perfil();
+                    perfil.setId(cursor.getInt(0));
+                    perfil.setNome(cursor.getString(1));
+                    perfil.setBio(cursor.getString(2));
+                    perfil.setEmail(cursor.getString(3));
+                    perfil.setTelefone(cursor.getString(4));
+                    perfil.setTipo(cursor.getInt(5));
+                    perfil.setFacebook(cursor.getString(6));
+                    perfil.setInstagram(cursor.getString(7));
+                    perfil.setSnapchat(cursor.getString(8));
+                    perfil.setTwitter(cursor.getString(9));
+                    perfil.setWhatsApp(cursor.getString(10));
+                    perfil.setImage(cursor.getInt(11));
+                    if(perfil.getNome().toLowerCase().contains(busca.toLowerCase())) {
+                        perfis.add(perfil);
+                    }
                 }
             }while (cursor.moveToNext());
         }

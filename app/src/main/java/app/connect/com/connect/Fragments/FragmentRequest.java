@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -38,6 +39,9 @@ public class FragmentRequest extends Fragment {
     private RequestAdapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
 
+    //Banco de dados
+    PerfilDAO perfilDAO;
+
 
     public FragmentRequest() {
         // Required empty public constructor
@@ -49,7 +53,7 @@ public class FragmentRequest extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_request, container, false);
-
+        perfilDAO = new PerfilDAO(getContext());
 
 
         //TODO teste
@@ -72,6 +76,29 @@ public class FragmentRequest extends Fragment {
         snList.add(teste2);
         snList.add(teste3);
 
+        List<Perfil> perfisBD = perfilDAO.getPerfis(0);
+        final List<Perfil> dataPerfilSet = new ArrayList<>();
+        boolean existe;
+        /*Retira atuais contatos da lista*/
+        for(int i = 0; i < snList.size(); i++){
+            existe = false;
+           for(int j = 0; j < perfisBD.size(); j++){
+               //verifica se perfil esta no BD
+               if(snList.get(i).getNome().equals(perfisBD.get(j).getNome())){
+                   existe = true;
+               }
+           }
+            if(!existe){
+                dataPerfilSet.add(snList.get(i));
+            }
+        }
+
+        //Verfica se a lista não está vazia
+        if(dataPerfilSet.size() == 0){
+            rootView.findViewById(R.id.tvPlaceholdermsg).setVisibility(View.VISIBLE);
+
+        }
+
         mRecyclerView = (RecyclerView) rootView.findViewById(R.id.rv_request);
         // use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
@@ -82,7 +109,7 @@ public class FragmentRequest extends Fragment {
         mRecyclerView.setLayoutManager(mLayoutManager);
 
         // specify an adapter (see also next example)
-        mAdapter = new RequestAdapter(snList);
+        mAdapter = new RequestAdapter(dataPerfilSet);
         mRecyclerView.setAdapter(mAdapter);
 
         mAdapter.setRecyclerViewOnClickListener(new RecyclerViewOnClickListener() {
@@ -90,12 +117,12 @@ public class FragmentRequest extends Fragment {
             public void onClickListener(View view, final int position) {
                 new AlertDialog.Builder(getContext())
                         .setTitle("Enviar solicitação")
-                        .setMessage("Você deseja solicitar as informações de contato de " + snList.get(position).getNome() + "?")
+                        .setMessage("Você deseja solicitar as informações de contato de " + dataPerfilSet.get(position).getNome() + "?")
                         .setPositiveButton("Sim", new DialogInterface.OnClickListener() {
 
                             public void onClick(DialogInterface dialog, int whichButton) {
                                 //Simula solicitação
-                                aceitarSolicitacao(snList.get(position), snList, position);
+                                aceitarSolicitacao(dataPerfilSet.get(position), dataPerfilSet, position);
                                 Toast.makeText(getContext(), "Solicitação enviada", Toast.LENGTH_LONG).show();
                             }})
                         .setNegativeButton("Não", null).show();
@@ -153,7 +180,6 @@ public class FragmentRequest extends Fragment {
                         .show();
 
                 //Insere no banco de dados
-                PerfilDAO perfilDAO = new PerfilDAO(getContext());
                 perfilDAO.inserirBD(perfil);
                 //Remove da lista
                 snList.remove(position);

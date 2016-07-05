@@ -7,27 +7,24 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 import com.mikepenz.materialdrawer.AccountHeader;
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.DrawerBuilder;
-import com.mikepenz.materialdrawer.model.DividerDrawerItem;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import app.connect.com.connect.BancoDeDados.PerfilDAO;
 import app.connect.com.connect.Fragments.FragmentEditProfile;
 import app.connect.com.connect.Fragments.FragmentMain;
+import app.connect.com.connect.Fragments.FragmentSearch;
 import app.connect.com.connect.Objetos.Perfil;
 
 public class MainActivity extends AppCompatActivity {
@@ -50,12 +47,15 @@ public class MainActivity extends AppCompatActivity {
         Perfil teste1 = new Perfil();
         teste1.setNome("joão");
         teste1.setEmail("joao.silva@outlook.com");
+        teste1.setImage(R.mipmap.joao);
         Perfil teste2 = new Perfil();
         teste2.setNome("Manu");
         teste2.setEmail("manuzinha@outlook.com");
+        teste2.setImage(R.mipmap.manu);
         Perfil teste3 = new Perfil();
-        teste3.setNome("Karoline");
-        teste3.setEmail("Karoline.htinha@gmail.com");
+        teste3.setNome("karoline");
+        teste3.setEmail("karoline.htinha@gmail.com");
+        teste3.setImage(R.mipmap.karoline);
 
         //Abre o banco de dados
         PerfilDAO perfilDAO = new PerfilDAO(this);
@@ -132,7 +132,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        //getMenuInflater().inflate(R.menu.menu_main, menu);
+        SearchView sv = new SearchView(this);
+        sv.setOnQueryTextListener(new SearchFilter());
+        MenuItem m1 = menu.add(0, 0, 0, "Search");
+        m1.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
+        m1.setActionView(sv);
         return true;
     }
 
@@ -165,7 +170,23 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    private class SearchFilter implements SearchView.OnQueryTextListener{
 
+        @Override
+        public boolean onQueryTextSubmit(String query) {
+            Log.i("Teste query", query);
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.fragment, FragmentSearch.newInstance(query));
+            ft.addToBackStack(null);
+            ft.commit();
+            return false;
+        }
+
+        @Override
+        public boolean onQueryTextChange(String newText) {
+            return false;
+        }
+    }
 
 
 

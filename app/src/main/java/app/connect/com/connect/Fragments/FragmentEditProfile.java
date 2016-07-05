@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -47,6 +48,9 @@ public class FragmentEditProfile extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        setHasOptionsMenu(false);
+
         //Instacia o banco de dados
         final PerfilDAO perfilDAO = new PerfilDAO(getContext());
 
@@ -126,6 +130,8 @@ public class FragmentEditProfile extends Fragment {
                         perfilDAO.atualizarBD(usuario);
                     }
 
+                    Toast.makeText(getContext(), "Perfil Atualizado", Toast.LENGTH_SHORT).show();
+
                     //Carrega o fragment main
                     FragmentTransaction ft = getFragmentManager().beginTransaction();
                     ft.replace(R.id.fragment, new FragmentMain());
@@ -139,5 +145,13 @@ public class FragmentEditProfile extends Fragment {
         return rootView;
     }
 
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        return super.onOptionsItemSelected(item);
+    }
 }

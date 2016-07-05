@@ -1,9 +1,9 @@
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    >
+    android:layout_height="wrap_content">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -12,97 +12,91 @@
         android:paddingTop="16dp">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:layout_gravity="center"
-            android:layout_weight="1"
             style="@style/subtitulo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
             android:text="MEU PERFIL"
-            android:textAlignment="center"
-            />
+            android:textAlignment="center" />
 
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@mipmap/ic_user"
-            android:layout_gravity="center"/>
+        <com.mikhaellopez.circularimageview.CircularImageView
 
+        android:id="@+id/imgProfile"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_user" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Nome"
-            android:layout_gravity="center"
             android:id="@+id/tvNome"
-            android:layout_weight="1"
             style="@style/redesociais"
-            android:textSize="36sp"
-            android:layout_marginBottom="16dp"
-            android:textAlignment="center"
-            />
-
-        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Fale sobre você.."
             android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:hint="Nome"
+            android:textAlignment="center"
+            android:textSize="36sp" />
+
+        <TextView
             android:id="@+id/tvBio"
-            android:layout_weight="1"
-            android:lines="6"
             style="@style/redesociais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
             android:gravity="top"
-            android:visibility="gone"
-            />
+            android:hint="Fale sobre você.."
+            android:lines="6"
+            android:visibility="gone" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:hint="email"
-            android:layout_gravity="center"
             android:id="@+id/tvEmail"
-            android:layout_weight="1"
             style="@style/redesociais"
-            android:textAlignment="center"
-            />
-
-        <TextView
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:hint="Telefone"
             android:layout_gravity="center"
-            android:id="@+id/tvTelefone"
             android:layout_weight="1"
+            android:hint="email"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTelefone"
             style="@style/redesociais"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
             android:autoLink="phone"
-            android:textAlignment="center"
-            />
+            android:hint="Telefone"
+            android:textAlignment="center" />
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
             style="@style/divider"
-            />
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="start"
             android:orientation="vertical">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:layout_weight="1"
-            style="@style/subtitulo"
-            android:text="Redes Sociais"
-            />
+            <TextView
+                style="@style/subtitulo"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="Redes Sociais" />
 
             <GridLayout
+                android:id="@+id/glFacebook"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
                 android:layout_marginBottom="8dp"
-                android:id="@+id/glFacebook"
-                >
+                android:layout_marginLeft="8dp">
 
                 <ImageView
                     android:layout_width="48dp"
@@ -119,20 +113,18 @@
                     android:layout_height="48dp"
                     android:layout_column="1"
                     android:layout_gravity="fill_horizontal|center_vertical"
+                    android:autoLink="web"
                     android:gravity="center_vertical"
                     android:hint="Facebook"
-                    android:text="facebook"
-                    android:autoLink="web"
-                     />
+                    android:text="facebook" />
             </GridLayout>
 
             <GridLayout
+                android:id="@+id/glInstagram"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
                 android:layout_marginBottom="8dp"
-                android:id="@+id/glInstagram"
-                >
+                android:layout_marginLeft="8dp">
 
                 <ImageView
                     android:layout_width="48dp"
@@ -150,17 +142,15 @@
                     android:layout_column="1"
                     android:layout_gravity="fill_horizontal|center_vertical"
                     android:gravity="center_vertical"
-                    android:hint="Instagram"
-                   />
+                    android:hint="Instagram" />
             </GridLayout>
 
             <GridLayout
+                android:id="@+id/glSnapchat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
                 android:layout_marginBottom="8dp"
-                android:id="@+id/glSnapchat"
-                >
+                android:layout_marginLeft="8dp">
 
                 <ImageView
                     android:layout_width="48dp"
@@ -178,17 +168,15 @@
                     android:layout_column="1"
                     android:layout_gravity="fill_horizontal|center_vertical"
                     android:gravity="center_vertical"
-                    android:hint="Snapchat"
-                   />
+                    android:hint="Snapchat" />
             </GridLayout>
 
             <GridLayout
+                android:id="@+id/glTwitter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
                 android:layout_marginBottom="8dp"
-                android:id="@+id/glTwitter"
-                >
+                android:layout_marginLeft="8dp">
 
                 <ImageView
                     android:layout_width="48dp"
@@ -206,17 +194,15 @@
                     android:layout_column="1"
                     android:layout_gravity="fill_horizontal|center_vertical"
                     android:gravity="center_vertical"
-                    android:hint="Twitter"
-                    />
+                    android:hint="Twitter" />
             </GridLayout>
 
             <GridLayout
+                android:id="@+id/glWhatsApp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
                 android:layout_marginBottom="8dp"
-                android:id="@+id/glWhatsApp"
-                >
+                android:layout_marginLeft="8dp">
 
                 <ImageView
                     android:layout_width="48dp"
@@ -234,8 +220,7 @@
                     android:layout_column="1"
                     android:layout_gravity="fill_horizontal|center_vertical"
                     android:gravity="center_vertical"
-                    android:hint="WhatsApp"
-                    />
+                    android:hint="WhatsApp" />
             </GridLayout>
 
         </LinearLayout>

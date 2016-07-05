@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class BDcore extends SQLiteOpenHelper {
     //Nome do banco de dados
     private static final String NOME_BD = "CONNECT_BD";
-    private static final int VERSAO_BD = 9;
+    private static final int VERSAO_BD = 11;
 
     public BDcore(Context context){
         super(context, NOME_BD, null, VERSAO_BD);
@@ -27,7 +27,8 @@ public class BDcore extends SQLiteOpenHelper {
                 "instagram text," +
                 "snapchat text," +
                 "twitter text," +
-                "whatsapp text)");
+                "whatsapp text," +
+                "image integer)");
     }
 
     @Override

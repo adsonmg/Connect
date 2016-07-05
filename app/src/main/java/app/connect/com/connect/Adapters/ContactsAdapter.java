@@ -4,7 +4,10 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.mikhaellopez.circularimageview.CircularImageView;
 
 import java.util.List;
 
@@ -41,7 +44,7 @@ public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.ViewHo
     public void onBindViewHolder(ViewHolder holder, int position) {
         holder.mTVContactNome.setText(mContactDataset.get(position).getNome());
         holder.mTVContactEmail.setText(mContactDataset.get(position).getEmail());
-
+        holder.imgProfile.setImageResource(mContactDataset.get(position).getImage());
     }
 
     @Override
@@ -56,10 +59,12 @@ public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.ViewHo
         // each data item is just a string in this case
         public TextView mTVContactNome;
         public TextView mTVContactEmail;
+        public CircularImageView imgProfile;
         public ViewHolder(View v) {
             super(v);
             mTVContactNome = (TextView) v.findViewById(R.id.tv_contact_nome);
             mTVContactEmail = (TextView) v.findViewById(R.id.tv_contact_email);
+            imgProfile = (CircularImageView ) v.findViewById(R.id.imgProfileC);
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

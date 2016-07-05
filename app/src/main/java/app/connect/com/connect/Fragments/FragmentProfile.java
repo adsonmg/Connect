@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridLayout;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
@@ -30,6 +31,7 @@ public class FragmentProfile extends Fragment {
     TextView tvSnapchat;
     TextView tvTwiiter;
     TextView tvWhatsApp;
+    ImageView imgProfile;
 
     //Banco de dados redes sociais variavel
     //private RedeSocialDAO redeSocialDAO;
@@ -57,6 +59,8 @@ public class FragmentProfile extends Fragment {
         tvSnapchat = (TextView) rootView.findViewById(R.id.tvSnapchat);
         tvTwiiter = (TextView) rootView.findViewById(R.id.tvTwitter);
         tvWhatsApp = (TextView) rootView.findViewById(R.id.tvWhatsApp);
+        imgProfile = (ImageView) rootView.findViewById(R.id.imgProfile);
+
 
 
         GridLayout glFacebook = (GridLayout) rootView.findViewById(R.id.glFacebook);
@@ -77,6 +81,8 @@ public class FragmentProfile extends Fragment {
             tvEmail.setText(perfilUsuario.get(0).getEmail());
             tvBio.setText(perfilUsuario.get(0).getBio());
             tvTelefone.setText(perfilUsuario.get(0).getTelefone());
+            perfilUsuario.get(0).setImage(R.mipmap.ic_user);
+            imgProfile.setImageResource(perfilUsuario.get(0).getImage());
             if(!perfilUsuario.get(0).getFacebook().equals("")) {
                 tvFacebook.setText(perfilUsuario.get(0).getFacebook());
             }else{

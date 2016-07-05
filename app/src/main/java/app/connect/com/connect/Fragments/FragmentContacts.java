@@ -54,6 +54,12 @@ public class FragmentContacts extends Fragment {
         //Pega os perfis dos contatos armazenados no banco de dados
         final List<Perfil> perfilList = perfilDAO.getPerfis(0);
 
+        //Verfica se a lista não está vazia
+        if(perfilList.size() == 0){
+            rootView.findViewById(R.id.tvPlaceholdermsg).setVisibility(View.VISIBLE);
+
+        }
+
 
         mRecyclerView = (RecyclerView) rootView.findViewById(R.id.rv_contacts);
         // use this setting to improve performance if you know that changes
